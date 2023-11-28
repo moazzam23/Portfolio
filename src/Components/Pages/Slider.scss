@@ -1,0 +1,49 @@
+// // @import '~bootstrap/scss/bootstrap';
+
+// .slider{
+//     .carousel-item {
+//   height: 65vh;
+//   min-height: 300px;
+//   background: no-repeat center center scroll;
+//   -webkit-background-size: cover;
+//   -moz-background-size: cover;
+//   -o-background-size: cover;
+//   background-size: cover;
+//   object-fit: cover !important;
+// }
+
+//     // margin-left: 4rem;
+// }
+
+.container2 {
+    margin-top: 1rem;
+
+
+    .contact-form {
+      max-width: 55rem;
+      box-shadow:0px 10px 20px #ca3e3e; 
+      margin: auto;
+
+      .contact-inputs {
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+        gap: 3rem;
+
+        input[type="submit"] {
+          cursor: pointer;
+          width: 5rem;
+          background-color: black;
+          color: white;
+          transition: all 0.2s;
+
+          &:hover {
+            background-color:#e40707;
+            border: 1px solid silver;
+            color: white;
+            transform: scale(0.9);
+          }
+        }
+      }
+    }
+  }

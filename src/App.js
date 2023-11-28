@@ -1,0 +1,44 @@
+import "./App.scss"
+import '@fortawesome/fontawesome-svg-core/styles.css'; 
+import Parent from "./Components/Parent";
+import Project from "./Components/project"
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import About from "./Components/about";
+import Netflix from "./Components/Pages/Netflix";
+import Chat from "./Components/Pages/Chat";
+import Chaiwala from "./Components/Pages/Chaiwala";
+import Corona from "./Components/Pages/Corona";
+import Food from "./Components/Pages/Food";
+import About2 from "./Main Page/About2";
+import Find2 from "./Main Page/Find2";
+import Skills2 from "./Main Page/Skills2";
+import Certificate from "./Main Page/Certificate";
+import Education from "./Main Page/Education";
+import Exprience from "./Main Page/Exprience";
+
+function App() {
+  return (
+<>
+<BrowserRouter>
+<Routes>
+<Route path="/" element={<Parent/>} />
+<Route path="/education" element={<Education/>} />
+<Route path="/exprience" element={<Exprience/>} />
+<Route path="/project" element={<Project/>}/>
+<Route path="/about" element={<About2/>}/>
+<Route path="/join" element={<Find2/>}/>
+<Route path="/netflix" element={<Netflix/>}/>
+<Route path="/chatapp" element={<Chat/>}/>
+<Route path="/chaiwala" element={<Chaiwala/>}/>
+<Route path="/corona" element={<Corona/>}/>
+<Route path="/foodapp" element={<Food/>}/>
+<Route path="/skills" element={<Skills2/>}/>
+<Route path="/certificate" element={<Certificate/>}/>
+
+</Routes>
+</BrowserRouter>
+</>
+  );
+}
+
+export default App;

@@ -1,0 +1,27 @@
+.education{
+    background-color: #e47f7f;
+    border-radius: 6px;
+    justify-content: space-between;
+    display: inline-flex;
+    margin-bottom: 1rem;
+    padding: 10px;
+ h2{
+font-style: italic;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+label{
+    display: flex;
+    font-size: 1rem;
+    font-weight: 700;
+    p{
+        font-size: 1rem;
+        padding-left: 20px;
+        font-weight: 400;
+    }
+}
+
+}
+.education:hover{
+    background-color: #a82f2f;
+    color: white;
+}
