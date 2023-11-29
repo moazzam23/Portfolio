@@ -15,7 +15,7 @@ const Main = () => {
       </h1>
       <h5  className='mt-3' style={{paddingLeft:"2rem" , color:"white"}}>Frontend Developer / Designer  </h5>
 
-  <h3 className='string text-center' style={{color:"#c2102a" ,paddingLeft:"1rem", marginTop:"7%"}}
+  {/* <h3 className='string text-center' style={{color:"#c2102a" ,paddingLeft:"1rem", marginTop:"7%"}}
       >
       <ReactTyped
        strings={[ "<" , "Who Loves to design","But Loves More To Code" , ]}
@@ -25,7 +25,7 @@ const Main = () => {
         cursorChar2="\"
         showCursor={true}
       />
-    </h3>
+    </h3> */}
   </div>
     <div className='main col-6  text-center' >
       <img className='imagemy ' src={img} alt='mainpic'  />
