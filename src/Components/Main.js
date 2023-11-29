@@ -1,7 +1,6 @@
 import React from 'react';
 import img from "../Assets/mypic2.png";
 // import vedio from "../Assets/vedio.mp4";
-import ReactTyped from "react-typed";
 
 const Main = () => {
   return (
