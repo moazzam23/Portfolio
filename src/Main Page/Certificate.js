@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import img from "../Assets/certificates/uiux.png"
 import img1 from "../Assets/certificates/email.png"
+import img5 from "../Assets/certificates/version.png"
+import img6 from "../Assets/certificates/java.png"
 import img2 from "../Assets/certificates/html.png"
 import img4 from "../Assets/certificates/meta.png"
 import img3 from "../Assets/certificates/graphic.png"
@@ -23,6 +25,54 @@ const Certificate = () => {
     <FontAwesomeIcon onClick={handleback} icon={faCircleArrowLeft} shake style={{color: "#e7230d",height:"3rem",width:"3rem",paddingLeft:"25px" }} />
         <h2 style={{textAlign:"center",marginTop:"-50px", color:"#e40707",fontSize:'4rem',marginBottom:"2rem"}}>Certificates</h2>
       
+        <div className="cardmain2 col-12">
+    <div className="card3">
+      <div  className="image2 ">
+        <img src={img5} alt="card" />
+      </div>
+      <div className="cardbody3 ">
+      <h4 className=' text-center'>Version Control</h4>
+           <label style={{fontSize:"1rem",fontWeight:"600"}}>Goals Achieved:</label>
+            <p><b> 1.</b> Implement Version Control systems 
+
+Navigate using the command line. help to colaaborate when working in a large team. 
+
+Use a GitHub repository.   <br/> <b> 2.</b> Create a GitHub repository
+
+Manage code revisions </p>
+             <label style={{fontSize:"1.1rem",fontWeight:"600"}}>Duration: </label>
+            <label style={{fontWeight:"400",paddingLeft:"20px"}}> One Month (Nov 2023 –Dec 2023) </label><br/>
+            <label style={{fontSize:"1.1rem",fontWeight:"600"}}>verify at:</label>
+            <a style={{paddingLeft:"10px",color:"red"}} href='https://www.coursera.org/account/accomplishments/verify/9MKMYGN9XVNA'> Click to verify the certificate?</a><br/>
+            <label style={{fontSize:"1.1rem",fontWeight:"600"}}>Skills:</label>
+            <label style={{fontWeight:"400",paddingLeft:"20px",paddingTop:"5px"}}>Version Control, collaboration , Git and Github </label>
+        </div>
+    </div></div>
+        <div className="cardmain2 col-12">
+    <div className="card3">
+      <div  className="image2 ">
+        <img src={img6} alt="card" />
+      </div>
+      <div className="cardbody3 ">
+      <h4 className=' text-center'>Programming With JavaScript</h4>
+           <label style={{fontSize:"1rem",fontWeight:"600"}}>Goals Achieved:</label>
+            <p><b> 1.</b>  Creating simple JavaScript codes. Indepth knowledge of object oriented language(oop). Real world coding.
+
+
+Writing unit tests using Jest  <br/> <b> 2.</b> 
+Creating and manipulating objects and arrays..The benefits of working with UI frameworks. </p>
+             <label style={{fontSize:"1.1rem",fontWeight:"600"}}>Duration: </label>
+            <label style={{fontWeight:"400",paddingLeft:"20px"}}> Two Month (Oct 2023 –Dec 2023) </label><br/>
+            <label style={{fontSize:"1.1rem",fontWeight:"600"}}>verify at:</label>
+            <a style={{paddingLeft:"10px",color:"red"}} href='https://www.coursera.org/account/accomplishments/verify/NPBJUG5LP6D4'> Click to verify the certificate?</a><br/>
+            <label style={{fontSize:"1.1rem",fontWeight:"600"}}>Skills:</label>
+            <label style={{fontWeight:"400",paddingLeft:"20px",paddingTop:"5px"}}>
+JavaScript,
+Front-End Web Development,
+Object-Oriented Programming (OOP) </label>
+        </div>
+    </div></div>
+
         <div className="cardmain2 col-12">
     <div className="card3">
       <div  className="image2 ">
