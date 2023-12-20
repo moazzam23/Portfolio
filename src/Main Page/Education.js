@@ -15,9 +15,9 @@ const Education = () => {
   return (
 <>
 <Header/>
-<div className='col-12'>
-<FontAwesomeIcon onClick={handleback} icon={faCircleArrowLeft} shake style={{color: "#e7230d",height:"3rem",width:"3rem",paddingLeft:"25px" }} />
-        <h2 style={{textAlign:"center",marginTop:"-50px", color:"#e40707",fontSize:'4rem',marginBottom:"2rem"}}>Education</h2>
+<div className='col-12' style={{backgroundColor:"#be686849",marginTop:"-24px", borderTop:"2px solid #e40707"}}>
+<FontAwesomeIcon onClick={handleback} icon={faCircleArrowLeft} shake className='mt-4' style={{color: "#e7230d",height:"3rem",width:"3rem",paddingLeft:"25px" }} />
+        <h2 style={{textAlign:"center",marginTop:"-50px", color:"#e40707",fontWeight:"800",fontFamily:"caveat",fontSize:'6vw',marginBottom:"2rem"}}>Education</h2>
     <div className='d-flex align-items-center  flex-column' >
       <div className='education col-10 mx-3 '>
         <div className='px-4' >

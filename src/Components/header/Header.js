@@ -19,7 +19,7 @@ function handle1(){
 
   return (
     <>
-        <Navbar className="bg-body-tertiary col-12" >
+        <Navbar className=" col-12" style={{backgroundColor:"#be686849"}} >
         {[{icon: faBars,
             name: 'start'}].map((item, idx) => (
         <Sidebar key={idx} placement={item.name} >
@@ -27,7 +27,7 @@ function handle1(){
           </Sidebar>
       ))}
         <Container >
-          <Navbar.Brand className='col-10 text-center'onClick={handle1}  href="#home">
+          <Navbar.Brand className='col-10 myname text-center'onClick={handle1}  href="#home">
                       Moazzam 
  </Navbar.Brand>
           <Navbar.Brand className='col-2 text-center' onClick={handle}>Work</Navbar.Brand>

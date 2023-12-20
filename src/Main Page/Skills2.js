@@ -17,8 +17,9 @@ const Skills2 = () => {
   return ( 
     <>
     <Header/>
-    <FontAwesomeIcon onClick={handleback} icon={faCircleArrowLeft} shake style={{color: "#e7230d",height:"2rem",width:"2rem",paddingLeft:"25px" }} />
-  <h1 style={{paddingLeft:"45%",fontSize:"4rem",marginBottom:"2rem",marginTop:"-30px",color:"#e40707"}} > Skills </h1>
+    <div  style={{marginTop:"-25px", backgroundColor:"#be686849" , borderTop:"2px solid #e40707"}} >
+    <FontAwesomeIcon onClick={handleback} icon={faCircleArrowLeft} shake className='mt-4' style={{color: "#e7230d",height:"2rem",width:"2rem",paddingLeft:"25px" }} />
+  <h1 style={{paddingLeft:"45%",fontSize:"6vw",marginBottom:"2rem",marginTop:"-30px",color:"#e40707", fontWeight:"800", fontFamily:"caveat"}} > Skills </h1>
   <div className="cardmain1 col-12">
     <div className="card2">
       <div className="cardbody2">
@@ -77,7 +78,8 @@ const Skills2 = () => {
         </div>
     </div>
     </div>
-    <hr/>
+    {/* <hr/> */}
+    </div>
 <Footer/>
 </>
   )

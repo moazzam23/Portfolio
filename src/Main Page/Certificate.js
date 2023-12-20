@@ -21,9 +21,9 @@ const Certificate = () => {
   return (
     <>
     <Header/>
-    <div className='col-12'>
-    <FontAwesomeIcon onClick={handleback} icon={faCircleArrowLeft} shake style={{color: "#e7230d",height:"3rem",width:"3rem",paddingLeft:"25px" }} />
-        <h2 style={{textAlign:"center",marginTop:"-50px", color:"#e40707",fontSize:'4rem',marginBottom:"2rem"}}>Certificates</h2>
+    <div className='col-12' style={{marginTop:"-25px", backgroundColor:"#be686849" , borderTop:"2px solid #e40707"}}>
+    <FontAwesomeIcon onClick={handleback} icon={faCircleArrowLeft} shake className='mt-4' style={{color: "#e7230d",height:"3rem",width:"3rem",paddingLeft:"25px" }} />
+        <h2 style={{textAlign:"center",marginTop:"-50px", color:"#e40707",fontSize:'6vw',fontFamily:"caveat",fontWeight:"800",marginBottom:"2rem"}}>Certificates</h2>
       
         <div className="cardmain2 col-12">
     <div className="card3">

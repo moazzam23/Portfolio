@@ -1,5 +1,5 @@
 import React from 'react'
-import vedio from "../Assets/Mainvedio.mp4"
+import vedio from "../Assets/design.mp4"
 // import img from "../Assets/2.jpg"
 
 

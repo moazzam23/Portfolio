@@ -7,6 +7,7 @@ import { faEnvelope,faCaretUp } from '@fortawesome/free-solid-svg-icons';
 const Joinme = () => {
   return (
     <div className='find col-12 text-center'>
+      {/* <hr/> */}
       <h1 className='text-center'> Join Me On</h1>
       <div className='col-12 text-center'>
         <a href='https://www.linkedin.com/in/mirza-muhammad-moazzam-baig-0b127a215/'><FontAwesomeIcon fade icon={faLinkedin} style={{color: "#e40707",}} /></a>

@@ -1,5 +1,4 @@
 import React from 'react'
-import vedio from "../Assets/Mainvedio.mp4"
 import Footer from '../Components/Footer'
 import Header from '../Components/header/Header'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -15,7 +14,7 @@ const About2 = () => {
     }
   return (
              <>   <Header/>
-    <div className='me col-12' >
+    <div className='me col-12' style={{marginTop:"-25px" , borderTop:"2px solid #e40707"}} >
     <FontAwesomeIcon onClick={handleback} icon={faCircleArrowLeft} shake style={{color: "#e7230d",height:"2rem",width:"2rem",paddingLeft:"25px" }} />
       <h1 className='about'>About Me</h1>
 
@@ -24,16 +23,16 @@ const About2 = () => {
 
          {/* <video className='img col-6' src={vedio} muted autoPlay loop controlsList="nodownload" /> */}
       <p className='detail col-6 '> 
-      <h2 className='text-center'>Mirza Muhammad Moazzam Baig</h2>
-      <h3 style={{paddingBottom:"1rem",fontWeight:"800",color:"red"}}>Front-End Developer</h3>
-      <label style={{display:"flex",fontSize:"1.1rem",fontWeight:"800",color:"red"}}>Contact No:<p style={{color:"black", paddingLeft:"1rem",fontWeight:"300"}}>0331-4483362</p></label>
-      <label style={{display:"flex",fontSize:"1.1rem",fontWeight:"800",color:"red"}}>DOB:<p style={{color:"black", paddingLeft:"1rem",fontWeight:"300"}}>08 AUG 2001</p></label>
-      <label style={{display:"flex" ,fontSize:"1.1rem",fontWeight:"800",color:"red"}}>Nationality:<p style={{color:"black", paddingLeft:"1rem",fontWeight:"300"}}>Pakistani</p></label>
-      <label style={{display:"flex",fontSize:"1.1rem",fontWeight:"800",color:"red"}}>Blood Group:<p style={{color:"black", paddingLeft:"1rem",fontWeight:"300"}}>O +ve</p></label>
-      <label style={{display:"flex",fontSize:"1.1rem",fontWeight:"800",color:"red"}}>Bahelor's:<p style={{color:"black", paddingLeft:"1rem",fontWeight:"300"}}>BS Software Engineering</p></label><br/>
+      <h2 className='text-center' style={{fontFamily:"Playfair"}} >Mirza Muhammad Moazzam Baig</h2>
+      <h3 style={{paddingBottom:"1rem",fontWeight:"900",fontSize:"2.5vw",color:"red",fontFamily:"caveat",textAlign:"center"}}>Front-End Developer</h3>
+      <label style={{display:"flex",fontSize:"1.1rem",fontWeight:"800",color:"red",fontFamily:"Playfair"}}>Contact No:<p style={{color:"black", paddingLeft:"1rem",fontWeight:"300"}}>0331-4483362</p></label>
+      <label style={{display:"flex",fontSize:"1.1rem",fontWeight:"800",color:"red",fontFamily:"Playfair"}}>DOB:<p style={{color:"black", paddingLeft:"1rem",fontWeight:"300"}}>08 AUG 2001</p></label>
+      <label style={{display:"flex" ,fontSize:"1.1rem",fontWeight:"800",color:"red",fontFamily:"Playfair"}}>Nationality:<p style={{color:"black", paddingLeft:"1rem",fontWeight:"300"}}>Pakistani</p></label>
+      <label style={{display:"flex",fontSize:"1.1rem",fontWeight:"800",color:"red",fontFamily:"Playfair"}}>Blood Group:<p style={{color:"black", paddingLeft:"1rem",fontWeight:"300"}}>O +ve</p></label>
+      <label style={{display:"flex",fontSize:"1.1rem",fontWeight:"800",color:"red",fontFamily:"Playfair"}}>Bahelor's:<p style={{color:"black", paddingLeft:"1rem",fontWeight:"300"}}>BS Software Engineering</p></label><br/>
      I am a Passionate Developer. I have completed my graduation in BS Software Engineering From Lahore Garrison University
      <br/><br/>My aim to design, develop, and maintain Websites and Apps that meet high standards of quality, performance, reliability, and security and also produce system that is 100% bug free. 
-  <br/>  <label style={{paddingTop:"1rem",paddingBottom:"2rem",fontSize:"1.3rem",fontWeight:"800",color:"red"}} >Follow Me On:</label><br/>
+  <br/>  <label style={{paddingTop:"1rem",paddingBottom:"2rem",fontSize:"1.9rem",fontWeight:"800",color:"red",fontFamily:"caveat"}} >Follow Me On:</label><br/>
   <div className='col-1' style={{display:"inline-flex" }}>
     <a href='https://www.instagram.com/moazzambaig23/'> <FaInstagram style={{color:"red",height:"2rem",width:"2rem"}}/></a>  
     <a href='https://www.facebook.com/profile.php?id=100011040979268'> <FaFacebook style={{color:"#0a0c91",height:"2rem",width:"2rem"}}/></a>  

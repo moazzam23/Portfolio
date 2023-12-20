@@ -1,5 +1,4 @@
 import React from 'react'
-import vedio from "../Assets/React JS.mp4"
 
 const   Work = () => {
   return (

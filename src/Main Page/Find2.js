@@ -15,9 +15,10 @@ const Find2 = () => {
     return (
     <>
     <Header/>
-    <FontAwesomeIcon onClick={handleback} icon={faCircleArrowLeft} shake style={{color: "#e7230d",height:"3rem",width:"3rem",paddingLeft:"25px" }} />
+    <div  style={{marginTop:"-25px", backgroundColor:"#be686849" , borderTop:"2px solid #e40707"}} >
+    <FontAwesomeIcon onClick={handleback} icon={faCircleArrowLeft} shake className='mt-4' style={{color: "#e7230d",height:"3rem",width:"3rem",paddingLeft:"25px" }} />
     <div className='find2 col-12 text-center'>
-    <h1  style={{marginTop:"-90px"}}className='col-4 text-center'>  Contact Me On</h1>
+    <h1  style={{marginTop:"-60px",fontFamily:"caveat", fontSize:"6vw",fontWeight:"800", color:"#e40707", border:"none"}}className='col-4 text-center'>  Contact Me On</h1>
     <div className='col-12 text-center'>
       <a href='tel:0331-4483362'> <FontAwesomeIcon icon={faPhone}  style={{ color: "#e40707"}} /></a>  
       <a href='https://www.instagram.com/moazzambaig23/'> <FontAwesomeIcon icon={faInstagramSquare}  style={{ color: "#e40707"}} /></a>  
@@ -33,15 +34,15 @@ const Find2 = () => {
       <div className="contact-form">
         <form action="https://formspree.io/f/xoqoolne" method="POST" className="contact-inputs" > 
         <h2> Contact Form </h2><br />
-        <input style={{marginTop:"-110px"}} type="text"  placeholder="username" name="username" required autoComplete="off" />
-        <input type="email"  placeholder="Enter active email" name="email" required autoComplete="off" />
-       <textarea name="description" required autoComplete="off" placeholder="enter your message" cols={30} rows={10}></textarea>
-<input type="submit" />
+        <input style={{marginTop:"-110px",backgroundColor:"#be686849"}} type="text"  placeholder="username" name="username" required autoComplete="off" />
+        <input type="email" style={{backgroundColor:"#be686849"}} placeholder="Enter active email" name="email" required autoComplete="off" />
+       <textarea name="description" style={{backgroundColor:"#be686849"}} required autoComplete="off" placeholder="enter your message" cols={30} rows={10}></textarea>
+<input style={{backgroundColor:"#e40707" , border:"none"}} type="submit" />
         </form>
       </div>
     </div>
     </div>
-  
+  </div>
   <Footer/>
   </>)
 }

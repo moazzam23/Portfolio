@@ -33,7 +33,8 @@ const Project = () => {
 
     <>
     <Header/>
-    <h1 style={{ textAlign:"center", fontFamily:"fantasy",color:"#e40707", fontSize:"3rem" ,marginBottom:"60px"}} > Project</h1>
+    <div style={{backgroundColor:"#be686849",marginTop:"-24px",borderTop:"2px solid #e40707"}}>
+    <h1 style={{ textAlign:"center", fontFamily:"Caveat",fontWeight:"800",color:"#e40707", fontSize:"3.7rem" ,marginBottom:"60px"}} > Project</h1>
     <div className="cardmain col-12">
     <div className="card1">
       <div className="image">
@@ -88,7 +89,7 @@ const Project = () => {
         </div>
     </div>
     </div>
-  
+    </div>
   <Footer/>
   </>
   )
