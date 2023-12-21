@@ -7,7 +7,8 @@
     padding: 10px;
  h2{
 font-style: italic;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-family: Playfair;
+font-weight: 800;
 }
 label{
     display: flex;
@@ -24,4 +25,44 @@ label{
 .education:hover{
     background-color: #a82f2f;
     color: white;
+}
+
+.workimage2{
+    // padding-left: -140px;
+    img{
+      height: 100%;
+      width: 100%;
+      padding-top: -160px;
+      // object-fit: ;
+    }
+  }   
+
+  @media (max-width: 600px) {
+    .educ{
+        display: flex;
+flex-direction: column;
+        width: 100%;
+        margin-bottom: 1rem;
+
+    }
+    .education {
+        display: block;
+
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .education h2 {
+        font-size: 1.5rem; 
+    }
+
+    .education label {
+        flex-direction: column;
+    }
+
+    .workimage2 img {
+        width: 100%;
+        height: auto;
+        padding-top: 0;
+    }
 }
