@@ -46,17 +46,24 @@ padding: 6px 6px;
 }
 .sidetitle{
     font-size: 1.1rem;
-    color: #e4070781;
+    color: white;
+    font-weight: 800;
     margin-bottom: 1.5rem;    
 }
 .sidetitle:hover{
-   border: 1px solid #e40707;
+   border: 1px solid black;
    border-radius: 5px;
+   font-family: Rubik Bubbles;
+   font-weight: 300;
+   color: black;
 }
 .sidebarlogo{
-  color:#e40707;
+  color:white;
 font-size: 3rem;
   padding-right:15px;
+}
+.sidebarlogo:hover{
+  color: black;
 }
 
 
@@ -221,18 +228,19 @@ font-size: 3rem;
         border-style: dotted;        }
         div{
           display: inline-block;
+          // width: 100%;
       h2
       {
 font-family: caveat;
     font-weight: 800;
-    padding-left: 1rem;
+    padding-left: 0.6rem;
     padding-top: 0.7rem;
     
     }
     p{
       font-family: Playfair;
       font-size: 1vw;
-      padding-left: 1rem;
+      padding-left: 0.5rem;
       // width: 50%;
       color: #000000;
       font-weight: 700;
@@ -249,7 +257,22 @@ font-family: caveat;
       size: 3rem;
     }
     
-          }}
+          }
+ .dodiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+ }
+  .workimage{
+    padding-left: -140px;
+    img{
+      height: 100%;
+      width: 100%;
+      // object-fit: ;
+    }
+  }    
+        }
 
           //offers
 .offers{
@@ -301,8 +324,6 @@ padding-top: 1rem;
 
 //find
 .find{
-  border-top: 4px solid #e40707;
-  border-width: 80%;
 background-color: #be686849;
   h1{
     // margin-left: 40%;
@@ -532,4 +553,59 @@ p{
   margin-top: 5px;
   text-align: center;
  font-size: 1rem;
+}
+
+
+// .loading-page{
+// background-color: #be686849;
+// height: 602px;
+// width: 100%;
+// display: flex;
+// flex-direction: column;
+// justify-content: center;
+// align-items: center;
+// color: #e40707;
+// text-align: center;
+// font-family: Rubik Bubbles;
+// }
+.loading-page {
+  background-color: #be686849;
+  height: 602px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #e40707;
+  text-align: center;
+  font-family: 'Rubik Bubbles';
+}
+.page2{
+  position: relative; // Add position relative
+padding: 20px;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #e40707; // Adjust border as needed
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    animation: fillAnimation 4s linear forwards; // 5 seconds animation duration
+  }
+
+  h1 {
+    margin-bottom: 10px;
+    font-family: Rubik Bubbles;
+  }
+
+  @keyframes fillAnimation {
+    0% {
+      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    }
+    100% {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+  }
 }

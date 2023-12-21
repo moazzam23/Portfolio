@@ -1,10 +1,13 @@
 import React from 'react'
+import img from "../Assets/Hand coding-pana.png"
 
 const   Work = () => {
   return (
     <div className='works col-12' >
       <h1 className='text-center'>What I DO</h1>
-      <div className='col-10'>
+      <div className='dodiv'>
+
+      <div className='col-7'>
         <h2 >DESIGN</h2>
         <p>I Love to the design a Product that is attractive and have a eye catching impression for the client.
        I could involve myself creating user interfaces (UI), user experiences (UX), prototyping, and making aesthetic and functional decisions to enhance the overall app design 
@@ -17,8 +20,9 @@ const   Work = () => {
     The challenges tht we face during developemt is the real dource of learning and growing
    </p>
    </div>
-{/* <div className='col-6'> */}
-   {/* <video className=' col-6' src={vedio} muted autoPlay loop controlsList="nodownload" /></div> */}
+<div className='col-5 workimage'>
+   <img src={img} alt="design" /></div>
+      </div>
     </div>
   )
 }

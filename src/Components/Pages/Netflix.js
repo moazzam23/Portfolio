@@ -21,8 +21,9 @@ const Netflix = () => {
   return (
     <>
       <Header />
-      <FontAwesomeIcon onClick={handleback} icon={faCircleArrowLeft} shake style={{color: "#e7230d",height:"4rem",width:"4rem",paddingLeft:"25px" }} />
-      <h1 className="col-12 text-center" style={{ color: '#c2102a',marginTop:"-50px"  }}>
+      <div style={{backgroundColor:"#be686849", marginTop:"-24px" , borderTop:"2px solid #e40707"}}>    
+      <FontAwesomeIcon onClick={handleback} icon={faCircleArrowLeft} shake style={{color: "#e7230d",height:"3rem",width:"3rem",paddingLeft:"25px" }} />
+      <h1 className="col-12 text-center" style={{ color: '#c2102a',marginTop:"-50px", fontFamily:"caveat", fontWeight:"800", fontSize:"5vw"  }}>
         Netflix
       </h1>
       <p style={{marginLeft:"3rem",marginRight:"3rem"}} > This is a single page application that Contain upcoming movie, popular, and watch before. I this project i have used technologies like Sass, CSS, React JS, React-Router, React-Bootstrap , React-Router-Dom , Axios, Sass. I have intergate the Apis to get movie in the rows diffenrtly like for popular , upcoming  etc.   Netflix is one of the world's leading entertainment services with over 247 million paid memberships in over 190 countries enjoying TV series </p>
@@ -63,6 +64,7 @@ const Netflix = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      </div>
       <Footer/>
 
     </>

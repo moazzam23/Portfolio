@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className='me col-12' >
       <h1 className='about'>About Me</h1>
-    <div>  <video className='img col-5' src={vedio} muted autoPlay loop controlsList="nodownload" />
+    <div>  <video className='img col-5 ps-2' style={{borderRadius:"20px"}} src={vedio} muted autoPlay loop controlsList="nodownload" />
       <p className='detail col-6'>   Welcome To My Portfolio. Myself
                              Mirza Muhammad Moazzam Baig and I am a Passionate Developer. I have completed my graduation in BS Software Engineering From Lahore Garrison University
      <br/><br/>My aim to design, develop, and maintain Websites and Apps that meet high standards of quality, performance, reliability, and security and also produce system that is 100% bug free. 

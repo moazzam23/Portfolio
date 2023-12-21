@@ -24,8 +24,9 @@ const Chaiwala = () => {
   return (
 <>
     <Header />
-    <FontAwesomeIcon onClick={handleback} icon={faCircleArrowLeft} shake style={{color: "#e7230d",height:"4rem",width:"4rem",paddingLeft:"25px" }} />
-    <h1 className="col-12 text-center" style={{ color: '#c2102a',marginTop:"-50px" }}>
+    <div style={{backgroundColor:"#be686849", marginTop:"-24px" , borderTop:"2px solid #e40707"}}>     
+    <FontAwesomeIcon onClick={handleback} icon={faCircleArrowLeft} shake className='pt-3' style={{color: "#e7230d",height:"3rem",width:"3rem",paddingLeft:"25px" }} />
+    <h1 className="col-12 text-center" style={{ color: '#c2102a',marginTop:"-50px", fontFamily:"caveat", fontWeight:"800", fontSize:"5vw" }}>
     Pakistani Chai Wala
     </h1>
     <p style={{marginLeft:"3rem",marginRight:"3rem"}} > This is a single page application that Contain upcoming 
@@ -51,8 +52,8 @@ const Chaiwala = () => {
 {/* <label className='text-center'  style={{ borderLeft:"15px solid #e40707",  fontWeight:"bolder",paddingRight:"10px",color:"black",marginLeft:"1rem", backgroundColor:"#FC8B8B", borderRadius:"6px"}} ><BiLogoSass color='black' style={{height:"1rem",width:"1rem"}} /> Sass</label>  */}
 
 </div>
-<div className='col-11 px-4 py-4 slider' style={{position:"fixed"}}>
-    <Carousel  >
+{/* <div className='col-11 px-4 py-4 slider' style={{position:"fixed"}}> */}
+    <Carousel  className='col-12 ps-4 py-4 slider' >
       <Carousel.Item >
         <img src={img1} alt="First slide" />
       </Carousel.Item>
@@ -72,7 +73,9 @@ const Chaiwala = () => {
         <img src={img6} alt="Third slide" />
       </Carousel.Item>
     </Carousel>
-    </div><Footer/>
+    {/* </div> */}
+    </div>
+    <Footer/>
 
   </>
   )

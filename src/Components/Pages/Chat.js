@@ -21,8 +21,9 @@ const Chat = () => {
   return (
     <>
     <Header />
+    <div style={{backgroundColor:"#be686849", marginTop:"-24px" , borderTop:"2px solid #e40707"}}>    
     <FontAwesomeIcon onClick={handleback} icon={faCircleArrowLeft} shake style={{color: "#e7230d",height:"4rem",width:"4rem",paddingLeft:"25px" }} />
-    <h1 className="col-12 text-center" style={{ color: '#c2102a',marginTop:"-50px"  }}>
+    <h1 className="col-12 text-center" style={{ color: '#c2102a',marginTop:"-50px" , fontFamily:"caveat", fontWeight:"800", fontSize:"5vw" }}>
         Real Time Chatting App
     </h1>
     <p style={{marginLeft:"3rem",marginRight:"3rem"}} > This is a single page application that Contain upcoming 
@@ -58,6 +59,7 @@ const Chat = () => {
         <img src={img3} alt="Third slide" className="object-fit-fill"/>
       </Carousel.Item>
     </Carousel>
+    </div>
     <Footer/>
 
   </>
