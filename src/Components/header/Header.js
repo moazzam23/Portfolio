@@ -30,7 +30,7 @@ function handle1(){
           <Navbar.Brand className='col-10 myname text-center'onClick={handle1}  href="#home">
                       Moazzam 
  </Navbar.Brand>
-          <Navbar.Brand className='col-2 text-center' onClick={handle}>Work</Navbar.Brand>
+          <Navbar.Brand className='col-1 text-center' onClick={handle}>Work</Navbar.Brand>
         </Container>
       </Navbar>
       <br />

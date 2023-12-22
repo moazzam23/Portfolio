@@ -53,7 +53,7 @@ function handleeducation(){
     marginTop: "40px",
 }} >
             <Offcanvas.Title className='sidetitle'  onClick={handleabout} > <ImProfile className="sidebarlogo"  /> About Me</Offcanvas.Title>
-            {/* <Offcanvas.Title className='sidetitle' onClick={handleexprience} ><BsPersonWorkspace className='sidebarlogo' />Experience</Offcanvas.Title> */}
+            <Offcanvas.Title className='sidetitle' onClick={handleexprience} ><BsPersonWorkspace className='sidebarlogo' />Experience</Offcanvas.Title>
             <Offcanvas.Title className='sidetitle' onClick={handleeducation} > <MdSchool className='sidebarlogo'/> Education</Offcanvas.Title>
             <Offcanvas.Title className='sidetitle' onClick={handlecertificate} > <PiCertificateFill style={{marginRight:"2px"}} className='sidebarlogo'/> Certificates</Offcanvas.Title>
             <Offcanvas.Title className='sidetitle' onClick={handleskills} ><GiSkills className='sidebarlogo' />Skills</Offcanvas.Title>

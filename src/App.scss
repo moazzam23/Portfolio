@@ -592,7 +592,7 @@ padding: 20px;
     height: 100%;
     border: 2px solid #e40707; // Adjust border as needed
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-    animation: fillAnimation 4s linear forwards; // 5 seconds animation duration
+    animation: fillAnimation 3s linear forwards; // 5 seconds animation duration
   }
 
   h1 {
@@ -610,3 +610,40 @@ padding: 20px;
   }
 }
  
+.expmain{
+  border-right: 1px solid #e40707;
+}
+.expheading{
+  font-family: caveat;
+  text-decoration: underline;
+  font-weight: 800;
+}
+.explabel{
+  font-family: Playfair;
+  font-weight: 600;
+  // font-size: 1vw;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+.exppara{
+  text-align: justify;
+  font-family: Playfair;
+  font-weight: 600;
+  padding-left: 10px;
+  text-transform: capitalize;
+  text-wrap: wrap;
+
+}
+.explink{
+  color: #e40707;
+  text-transform: capitalize;
+  font-family: caveat;
+  font-size: 1.7vw;
+  font-weight: 600;
+}
+.explink::before{
+  content: ">";
+  color: #e40707;
+size: 3rem;
+  gap: 10px;
+}

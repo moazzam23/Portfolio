@@ -44,7 +44,8 @@ const Find2 = () => {
     </div>
   </div>
   <Footer/>
-  </>)
+  </>
+  )
 }
 
 export default Find2
