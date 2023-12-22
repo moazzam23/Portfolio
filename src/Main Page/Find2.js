@@ -33,11 +33,11 @@ const Find2 = () => {
     <div className="container2">
       <div className="contact-form">
         <form action="https://formspree.io/f/xoqoolne" method="POST" className="contact-inputs" > 
-        <h2> Contact Form </h2><br />
+        <h2> Contact Or Have A Coffee For Talk </h2><br />
         <input style={{marginTop:"-110px",backgroundColor:"#be686849"}} type="text"  placeholder="username" name="username" required autoComplete="off" />
         <input type="email" style={{backgroundColor:"#be686849"}} placeholder="Enter active email" name="email" required autoComplete="off" />
        <textarea name="description" style={{backgroundColor:"#be686849"}} required autoComplete="off" placeholder="enter your message" cols={30} rows={10}></textarea>
-<input style={{backgroundColor:"#e40707" , border:"none"}} type="submit" />
+<input type="submit" />
         </form>
       </div>
     </div>
