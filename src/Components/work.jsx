@@ -17,7 +17,7 @@ const   Work = () => {
     <p>While Developing, I my aim to produce the code is easier to understand and can also be reuse in future. we can create the componenet of code that give the more clarity and neatness in our work. On the other hand developing is a continous process of learning and growing <br></br><br></br>The art of development lies in turning ideas into reality, one algorithm at a time</p>
    <h2>PORTOLIO</h2>
    <p>My era of development start with the creation of my personsal protfolio. Portfolio is the best way to show cast the devlopment of various application that you have build. This also help in judging your hand on experience on various tools.
-    The challenges tht we face during developemt is the real dource of learning and growing
+    The challenges that we face during developemt is the real dource of learning and growing
    </p>
    </div>
 <div className='col-5 workimage'>

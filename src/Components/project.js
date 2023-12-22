@@ -43,7 +43,7 @@ const Project = () => {
       <div className="cardbody">
         <h4>Netflix - The Movie App</h4>
         <p>This is a single page application that Contain upcoming movie, popular, and watch before... </p>
- <Alert variant='danger' > Click image to view Deatils? </Alert>
+ <Alert variant='danger' > Click image to view Details? </Alert>
 
         </div>
     </div>
@@ -65,7 +65,7 @@ const Project = () => {
       <div className="cardbody">
         <h4>Pakistani Chai Wala</h4>
         <p>This is a single page app contain different section on the page. This is a animated app and full of colors...</p>
-        <Alert variant='danger' > Click image to view Deatils? </Alert>
+        <Alert variant='danger' > Click image to view Detils? </Alert>
         </div>
     </div>
     <div className="card1">
@@ -75,7 +75,7 @@ const Project = () => {
       <div className="cardbody">
         <h4>Corona App Prototype</h4>
         <p>This is made on Adobe XD. This is the Prototype of this app.Check complete design of app...</p>
-        <Alert variant='danger' > Click image to view Deatils? </Alert>
+        <Alert variant='danger' > Click image to view Details? </Alert>
         </div>
     </div>
     <div className="card1">
@@ -84,8 +84,8 @@ const Project = () => {
       </div>
       <div className="cardbody">
         <h4>Food Delivery App</h4>
-        <p>This is made on Adobe XD. This is the Prototype of this app.Check complete design of app...</p>
-        <Alert variant='danger' > Click image to view Deatils? </Alert>
+        <p>This is a single page app contain different section on the page. This is a animated app and full of colors...</p>
+        <Alert variant='danger' > Click image to view Details? </Alert>
         </div>
     </div>
     </div>
