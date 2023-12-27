@@ -17,6 +17,7 @@ import Skills2 from "./Main Page/Skills2";
 import Certificate from "./Main Page/Certificate";
 import Education from "./Main Page/Education";
 import Exprience from "./Main Page/Exprience";
+import CustomCursor from "./Components/Customcursor";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -30,6 +31,7 @@ function App() {
         <LoadingPage onLoadComplete={handleLoadComplete} />
       ) : (
 <BrowserRouter>
+<CustomCursor/>
 <Routes>
 <Route path="/" element={<Parent/>} />
 <Route path="/education" element={<Education/>} />

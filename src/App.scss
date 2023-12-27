@@ -647,3 +647,21 @@ padding: 20px;
 size: 3rem;
   gap: 10px;
 }
+
+
+// CustomCursor.scss
+.custom-cursor {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #e40707;
+  border-radius: 50%;
+  background-color: #e40707;
+  mix-blend-mode: darken;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  transition: all 0.2s ease;
+  // cursor: pointer;
+  box-shadow: 0 0 10px #e40707;
+}
