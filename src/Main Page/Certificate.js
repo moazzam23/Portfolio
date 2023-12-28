@@ -6,6 +6,7 @@ import img1 from "../Assets/certificates/email.png"
 import img5 from "../Assets/certificates/version.png"
 import img6 from "../Assets/certificates/java.png"
 import img2 from "../Assets/certificates/html.png"
+import img7 from "../Assets/certificates/21.png"
 import img4 from "../Assets/certificates/meta.png"
 import img3 from "../Assets/certificates/graphic.png"
 import { useNavigate } from 'react-router-dom'
@@ -25,6 +26,28 @@ const Certificate = () => {
     <FontAwesomeIcon onClick={handleback} icon={faCircleArrowLeft} shake className='mt-4' style={{color: "#e7230d",height:"3rem",width:"3rem",paddingLeft:"25px" }} />
         <h2 style={{textAlign:"center",marginTop:"-50px", color:"#e40707",fontSize:'6vw',fontFamily:"caveat",fontWeight:"800",marginBottom:"2rem"}}>Certificates</h2>
       
+        <div className="cardmain2 col-12">
+    <div className="card3">
+      <div  className="image2 ">
+        <img src={img7} alt="card" />
+      </div>
+      <div className="cardbody3 ">
+      <h4 className=' text-center'>Indepth HTLM And CSS</h4>
+           <label style={{fontSize:"1rem",fontWeight:"600"}}>Goals Achieved:</label>
+            <p><b> 1.</b> Create a simple form with a responsive layout using HTML5 and CSS
+
+            Create a responsive layout using CSS.Create a UI using Bootstrap   <br/> <b> 2.</b> Implement debugging tools. CSS Animation, selectors and Effect Implementation</p>
+             <label style={{fontSize:"1.1rem",fontWeight:"600"}}>Duration: </label>
+            <label style={{fontWeight:"400",paddingLeft:"20px"}}> One Month (Dec 2023 –Dec 2023) </label><br/>
+            <label style={{fontSize:"1.1rem",fontWeight:"600"}}>verify at:</label>
+            <a style={{paddingLeft:"10px",color:"red"}} href='https://www.coursera.org/account/accomplishments/verify/4MK4U8C4R6AX'> Click to verify the certificate?</a><br/>
+            <label style={{fontSize:"1.1rem",fontWeight:"600"}}>Skills:</label>
+            <label style={{fontWeight:"400",paddingLeft:"20px",paddingTop:"5px"}}>HTML and CSS,
+React (Web Framework),
+Debugging,
+User Interface</label>
+        </div>
+    </div></div>
         <div className="cardmain2 col-12">
     <div className="card3">
       <div  className="image2 ">
