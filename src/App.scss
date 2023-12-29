@@ -679,3 +679,36 @@ size: 3rem;
   // cursor: pointer;
   box-shadow: 0 0 10px #e40707;
 }
+
+
+
+/* Add the following styles to your existing CSS */
+
+/* Hide the default scrollbar */
+body {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: transparent transparent; /* Firefox */
+  overflow-y: scroll; /* Hide the default scrollbar in Webkit browsers */
+}
+
+/* Define the style for the custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+  background-color: #be686849;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e40707; /* Color of the thumb */
+  border-radius: 7px; /* Rounded corners */
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent; /* Color of the track */
+}
+
+/* Optional: You can add hover effects for the scrollbar */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #c2102a; /* Hover color */
+}
+
