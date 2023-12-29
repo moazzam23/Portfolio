@@ -16,6 +16,13 @@
  font-family: caveat;
  font-weight: 600;
  }
+ .mydisplay{
+  font-family: caveat;
+  font-size: 2vw;
+  text-align: end;
+  font-weight: 800;
+  text-decoration: underline;
+ }
 
  .myname:before{
   content: '<';
@@ -74,6 +81,16 @@ font-size: 3rem;
     display: flex;
     height:350px;
     background-color: #9b2626;
+    
+    animation: popup 2s ease-in;
+    @keyframes popup {
+      from {
+        transform: scale(0);
+      }
+      to {
+        transform: scale(2);
+      }
+    }
 
     .imagemy {
   height: 340px;
@@ -83,7 +100,17 @@ font-size: 3rem;
   margin-top: 10px; /* Adjust this value to control the spacing between the image and the border */
   // position: relative;
   // animation: zigzag 4s linear infinite;
+  animation: popup 1.5s ease-in-out;
 }
+@keyframes popup {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
 
 // @keyframes zigzag {
 //   0% {
@@ -115,6 +142,16 @@ font-size: 3rem;
 //About
 .me{
   background-color: #be686849;
+  animation: popup 2s;
+@keyframes popup {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100px);
+  }
+  
+}
 
     >h1{
       margin-left: 40%;
