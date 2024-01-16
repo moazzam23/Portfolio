@@ -6,6 +6,33 @@
   font-family: Playfair;
 }
 
+.btndiv{
+  text-align: center;
+    margin-top: 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px
+}
+
+.mainbtn{
+  text-decoration: none;
+  background-color: #be6868e7;
+  padding: 10px;
+  color: #000000;
+  font-weight: 800;
+  font-family: caveat;
+  font-size: 19px;
+  border-radius: 7px;
+}
+.mainbtn:hover{
+  background-color: #000000;
+  color: #fff;
+  border: 2px solid #e40707;
+
+}
+
+
  .myname{
   font-family: Rubik Bubbles;
   font-size: 3vw;
@@ -93,11 +120,11 @@ font-size: 3rem;
     }
 
     .imagemy {
-  height: 340px;
-  width: 170px;
+  height: 360px;
+  width: 60%;
   // border: 1px solid #c2102a;
   // border-radius: 50%;
-  margin-top: 10px; /* Adjust this value to control the spacing between the image and the border */
+  margin-top: -10px; /* Adjust this value to control the spacing between the image and the border */
   // position: relative;
   // animation: zigzag 4s linear infinite;
   animation: popup 1.5s ease-in-out;

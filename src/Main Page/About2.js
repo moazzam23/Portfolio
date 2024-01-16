@@ -3,9 +3,9 @@ import Footer from '../Components/Footer'
 import Header from '../Components/header/Header'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleArrowLeft } from '@fortawesome/free-solid-svg-icons'
-import img from "../Assets/2-removebg-preview.png" 
+import img from "../Assets/7-removebg-preview (1).png" 
 import { useNavigate } from 'react-router-dom'
-import { FaBehanceSquare, FaEnvelope, FaFacebook, FaInstagram, FaLinkedin, FaSnapchat } from 'react-icons/fa'
+import {FaEnvelope, FaFacebook, FaInstagram, FaLinkedin, FaSnapchat } from 'react-icons/fa'
 
 const About2 = () => {
     const navigate = useNavigate();
@@ -43,7 +43,8 @@ const About2 = () => {
     </div></p>
       
       </div>
-      <a href="https://drive.google.com/file/d/14wF3ryG3g_SeLR_J18imtibtWkJIcHxK/view?usp=share_link" download="Moazzam_Resume" target='_blank'>
+      <a href="https://drive.google.com/file/d/14wF3ryG3g_SeLR_J18imtibtWkJIcHxK/view?usp=share_link" rel="noreferrer"
+         download="Moazzam_Resume" target='_blank'>
 <button type="button" >See My Resume</button>
 </a>
      </div>

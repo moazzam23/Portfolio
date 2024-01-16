@@ -1,5 +1,5 @@
 import React, {useEffect,useState} from 'react';
-import img from "../Assets/mypic2.png";
+import img from "../Assets/new.png";
 // import vedio from "../Assets/vedio.mp4";
 
 const Main = () => {
@@ -23,10 +23,13 @@ const Main = () => {
   <div className='detail1 col-6 py-3 mt-4'>
       <h1 style={{paddingLeft:"2rem" , color:"white"}}>
         Hi, <br/>
-                 Moazzam Baig
+                <label style={{paddingLeft:"5vw",fontWeight:"900",fontStyle:"bold"}}> Moa<label style={{color:"red" }}>zz</label>am <label style={{color:"red" }}>B</label>aig</label>
       </h1>
-      <h5  className='mt-3' style={{paddingLeft:"2rem" , color:"white", fontFamily:fontFamily,fontSize:"3vw",color:fontColor,textAlign:"center"}}>Frontend Developer / Designer  </h5>
-      <h6  className='mt-3' style={{paddingLeft:"2rem" , color:"white", fontFamily:"Playfair",fontSize:"2vw",color:fontColor}}>React JS Developer   </h6>
+      <h5   style={{paddingLeft:"1rem",marginTop:"3vw" , fontFamily:fontFamily,fontSize:"2vw",color:fontColor,textAlign:"center"}}>Full Stack Developer / Designer  </h5>
+      <div className='btndiv' >
+        <a className='mainbtn' href='/project'>View My Projects </a>
+        <a  className='mainbtn' href='/join' >Connect With Me </a>
+      </div>
   </div>
     <div className='main col-6  text-center' >
       <img className='imagemy ' src={img} alt='mainpic'  />
