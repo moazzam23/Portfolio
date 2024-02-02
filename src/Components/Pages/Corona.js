@@ -32,11 +32,9 @@ const Corona = () => {
     I have intergate the Apis to get movie in the rows diffenrtly like for popular , upcoming  etc.   Netflix is one of the world's leading entertainment services with over 247 million paid memberships in over 190 countries enjoying TV series </p>
 
 <div>
-<label style={{ fontSize:'1rem', border:"none",borderRadius:"6px", marginTop:"2rem" , marginLeft:'3rem', padding:"3px",fontWeight:"bolder"}}>Git Hub: </label>
-<a style={{color:"black",marginLeft:"0.8rem"}} href='https://github.com/moazzam23/chatting-app'> Chatting App code  </a>
-<br/>
-<label style={{ fontSize:'1rem', border:"none",borderRadius:"6px", marginTop:"0.5rem" , marginLeft:'3rem', padding:"3px",fontWeight:"bolder"}} >Vercel: </label>
-<a style={{color:"black",marginLeft:"1rem"}} href='https://chatting-app-phi.vercel.app/'> Vercel (See App Demo)</a>
+<div className='projectpage'>
+<a className='projectbtn' style={{color:"black",marginLeft:"1rem"}} href='https://www.behance.net/gallery/148517665/Covid-App-Prototype'> See Prototype Demo</a>
+  </div>
 
 <br/>
 <label style={{ fontSize:'1rem', border:"none",borderRadius:"6px", marginTop:"0.5rem" , marginLeft:'3rem', padding:"3px",fontWeight:"bolder"}} >Stack :</label>
@@ -48,7 +46,7 @@ const Corona = () => {
 <label className='text-center'  style={{ borderLeft:"15px solid black",  fontWeight:"bolder",paddingRight:"10px",color:"black",marginLeft:"1rem", backgroundColor:"#face0a", borderRadius:"6px"}} ><IoLogoFirebase color='black' style={{height:"1rem",width:"1rem"}} /> Firebase</label>  */}
 
 </div>
-    <Carousel className='col-11 px-4 py-4 slider' >
+    <Carousel className='col-11 px-4 py-4 text-center slider' >
       <Carousel.Item >
         <img src={img1} alt="First slide" />
       </Carousel.Item>

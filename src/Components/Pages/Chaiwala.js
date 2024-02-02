@@ -36,11 +36,10 @@ const Chaiwala = () => {
     I have intergate the Apis to get movie in the rows diffenrtly like for popular , upcoming  etc.   Netflix is one of the world's leading entertainment services with over 247 million paid memberships in over 190 countries enjoying TV series </p>
 
 <div>
-<label style={{ fontSize:'1rem', border:"none",borderRadius:"6px", marginTop:"2rem" , marginLeft:'3rem', padding:"3px",fontWeight:"bolder"}}>Git Hub: </label>
-<a style={{color:"black",marginLeft:"0.8rem"}} href='https://github.com/moazzam23/Pakistani-Chai-Wala'> Pakistani Chai Wala App code  </a>
-<br/>
-<label style={{ fontSize:'1rem', border:"none",borderRadius:"6px", marginTop:"0.5rem" , marginLeft:'3rem', padding:"3px",fontWeight:"bolder"}} >Vercel: </label>
-<a style={{color:"black",marginLeft:"1rem"}} href='https://pakistni-chai-wala-1dofs629j-moazzambaig.vercel.app/'> Vercel (See App Demo)</a>
+<div className='projectpage'>
+<a className='projectbtn' style={{color:"black",marginLeft:"0.8rem"}} href='https://github.com/moazzam23/Pakistani-Chai-Wala'> Pakistani Chai Wala code  </a>
+<a className='projectbtn' style={{color:"black",marginLeft:"1rem"}} href='https://pakistni-chai-wala-1dofs629j-moazzambaig.vercel.app/'> Vercel (See App Demo)</a>
+  </div>
 
 <br/>
 <label style={{ fontSize:'1rem', border:"none",borderRadius:"6px", marginTop:"0.5rem" , marginLeft:'3rem', padding:"3px",fontWeight:"bolder"}} >Stack :</label>
@@ -53,7 +52,7 @@ const Chaiwala = () => {
 
 </div>
 {/* <div className='col-11 px-4 py-4 slider' style={{position:"fixed"}}> */}
-    <Carousel  className='col-12 ps-4 py-4 slider' >
+    <Carousel  className='col-12 ps-4 text-center py-4 slider' >
       <Carousel.Item >
         <img src={img1} alt="First slide" />
       </Carousel.Item>

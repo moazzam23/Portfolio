@@ -18,6 +18,8 @@ import Education from "./Main Page/Education";
 import Exprience from "./Main Page/Exprience";
 import CustomCursor from "./Components/Customcursor";
 import Socialmedia from "./Components/Pages/Socialmedia";
+import NotFound from "./Components/NotFound";
+import Ecommer from "./Components/Pages/Ecommer";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -47,6 +49,8 @@ function App() {
 <Route path="/skills" element={<Skills2/>}/>
 <Route path="/certificate" element={<Certificate/>}/>
 <Route path="/socialapp" element={<Socialmedia/>}/>
+<Route path="/ecommerceapp" element={<Ecommer/>}/>
+<Route path="*" element={<NotFound/>}/>
 
 </Routes>
 </BrowserRouter>

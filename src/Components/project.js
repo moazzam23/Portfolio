@@ -5,6 +5,7 @@ import img2 from "../Assets/chaiwala/Screenshot (2).png"
 import img3 from "../Assets/food/Screenshot (19).png"
 import img4 from "../Assets/corona2.png"
 import img5 from "../Assets/social/Screenshot (98).png"
+import img6 from "../Assets/Ecommer/Screenshot (102).png"
 
 import Header from "../Components/header/Header"
 import { Alert } from "react-bootstrap"
@@ -33,6 +34,9 @@ const Project = () => {
   function handlesocial(){
     navigate("/socialapp")
   }
+  function handleecommer(){
+    navigate("/ecommerceapp")
+  }
   return (
 
     <>
@@ -46,6 +50,17 @@ const Project = () => {
       </div>
       <div className="cardbody">
         <h4>Social Media App</h4>
+        <p>It a MERN STACK Social Media App, which is made using React JS , Noda JS ,Express JS and Mongo-BD... </p>
+ <Alert variant='danger' > Click image to view Details? </Alert>
+
+        </div>
+    </div>
+    <div className="card1">
+      <div className="image">
+        <img onClick={handleecommer} src={img6} alt="card"/>
+      </div>
+      <div className="cardbody">
+        <h4>Ecommerce Store </h4>
         <p>It a MERN STACK Social Media App, which is made using React JS , Noda JS ,Express JS and Mongo-BD... </p>
  <Alert variant='danger' > Click image to view Details? </Alert>
 
