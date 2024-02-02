@@ -13,7 +13,7 @@ const About = () => {
      <br/><br/>My aim to design, develop, and maintain Websites and Apps that meet high standards of quality, performance, reliability, and security and also produce system that is 100% bug free. 
       </p>
       </div>
-      <a href="https://drive.google.com/file/d/14wF3ryG3g_SeLR_J18imtibtWkJIcHxK/view?usp=share_link" download="Moazzam_Resume" target='_blank'>
+      <a href="https://drive.google.com/file/d/1j7yl5E30-NIuAH0acf1Tgup4ajp3EExc/view?usp=sharing" download="Moazzam_Resume" target='_blank'>
 <button type="button" >See My Resume</button>
 </a>
       <marquee behaviour="scroll" direction="left">Passionate developers don't just write code; they craft experiences that change the world</marquee>

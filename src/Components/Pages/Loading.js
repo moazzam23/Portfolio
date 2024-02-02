@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSpinner } from '@fortawesome/free-solid-svg-icons'; 
 import "./Loading.scss"
 
 const LoadingPage = ({ onLoadComplete }) => {
@@ -9,7 +7,7 @@ const LoadingPage = ({ onLoadComplete }) => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoadingComplete(true);
-      onLoadComplete(); // Notify the parent component that loading is complete
+      onLoadComplete();
     }, 2000); 
 
     return () => clearTimeout(timer);
