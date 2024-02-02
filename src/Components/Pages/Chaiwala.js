@@ -37,8 +37,8 @@ const Chaiwala = () => {
 
 <div>
 <div className='projectpage'>
-<a className='projectbtn' style={{color:"black",marginLeft:"0.8rem"}} href='https://github.com/moazzam23/Pakistani-Chai-Wala'> Pakistani Chai Wala code  </a>
-<a className='projectbtn' style={{color:"black",marginLeft:"1rem"}} href='https://pakistni-chai-wala-1dofs629j-moazzambaig.vercel.app/'> Vercel (See App Demo)</a>
+<a target="_blank" className='projectbtn' style={{color:"black",marginLeft:"0.8rem"}} href='https://github.com/moazzam23/Pakistani-Chai-Wala'> Pakistani Chai Wala code  </a>
+<a target="_blank" className='projectbtn' style={{color:"black",marginLeft:"1rem"}} href='https://pakistni-chai-wala-1dofs629j-moazzambaig.vercel.app/'> Vercel (See App Demo)</a>
   </div>
 
 <br/>

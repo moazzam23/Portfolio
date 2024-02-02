@@ -63,6 +63,7 @@ const Socialmedia = () => {
         <div>
           <div className="projectpage">
             <a
+            target="_blank"
               className="projectbtn"
               style={{ color: "black", marginLeft: "0.8rem" }}
               href="https://github.com/moazzam23/Social_Media-App---MERN-project"
@@ -72,6 +73,7 @@ const Socialmedia = () => {
             </a>
 
             <a
+            target="_blank"
               className="projectbtn"
               style={{ color: "black", marginLeft: "1rem" }}
               href="https://www.loom.com/share/a1e6b0ce1fff465494b6e00d1990be4f?sid=909cddbd-178c-4318-8f69-99a695bd51a6"

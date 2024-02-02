@@ -1,10 +1,9 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faHtml5,faCss3Alt,faReact,faBootstrap,faSquareJs} from '@fortawesome/free-brands-svg-icons';
-import {TbBrandNextjs} from "react-icons/tb"
-import {BiLogoTailwindCss,BiLogoFirefox,BiLogoSass} from "react-icons/bi"
+import {faHtml5,faCss3Alt,faReact,faBootstrap,faSquareJs, faNode} from '@fortawesome/free-brands-svg-icons';
+import {BiLogoTailwindCss,BiLogoFirefox} from "react-icons/bi"
 import {faCircleArrowLeft} from '@fortawesome/free-solid-svg-icons';
-import {SiAdobexd,SiAdobeillustrator, SiSass} from "react-icons/si"
+import {SiAdobexd,SiAdobeillustrator, SiSass, SiExpress, SiMongodb, SiTypescript} from "react-icons/si"
 import Footer from '../Components/Footer';
 import Header from '../Components/header/Header';
 import { useNavigate } from 'react-router-dom';
@@ -44,7 +43,22 @@ const Skills2 = () => {
     </div>
     <div className="card2">
       <div className="cardbody2">
-        <h4>NEXT JS <br/> <TbBrandNextjs fade style={{color: "#e7230d",height:"6rem",width:"6rem",paddingTop:"1rem" }} /></h4>
+        <h4> NODE JS <br/> <FontAwesomeIcon icon={faNode} fade style={{color: "#e7230d",height:"4rem",width:"4rem",paddingTop:"1rem" }} /></h4>
+        </div>
+    </div>
+    <div className="card2">
+      <div className="cardbody2">
+        <h4> Express JS <br/> <SiExpress style={{color: "#e7230d",height:"4rem",width:"4rem",paddingTop:"1rem" }} />  </h4>
+        </div>
+    </div>
+    <div className="card2">
+      <div className="cardbody2">
+        <h4> MONGO DB <br/> <SiMongodb style={{color: "#e7230d",height:"4rem",width:"4rem",paddingTop:"1rem" }}/></h4>
+        </div>
+    </div>
+    <div className="card2">
+      <div className="cardbody2">
+        <h4> TYPESCRIPTE <br/> <SiTypescript style={{color: "#e7230d",height:"4rem",width:"4rem",paddingTop:"1rem" }}/></h4>
         </div>
     </div>
     <div className="card2">

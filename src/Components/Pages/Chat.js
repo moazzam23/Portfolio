@@ -65,6 +65,7 @@ const Chat = () => {
         <div>
           <div className="projectpage">
             <a
+             target="_blank"
               className="projectbtn"
               style={{ color: "black", marginLeft: "0.8rem" }}
               href="https://github.com/moazzam23/chatting-app"
@@ -73,6 +74,7 @@ const Chat = () => {
                Chatting App code{" "}
             </a>
             <a
+             target="_blank"
               className="projectbtn"
               style={{ color: "black", marginLeft: "1rem" }}
               href="https://chatting-app-phi.vercel.app/"

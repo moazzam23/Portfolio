@@ -54,7 +54,7 @@ const Exprience = () => {
 Development.<br/>
 • Reuseable Component- building<br/>
 • Hand on experience on JavaScript, React JS, Next JS. </p>
-<a className='explink' href='https://drive.google.com/file/d/1jdJ38YFuTbM_7BoN_7Q9eTl04P5NcCHY/view?usp=drive_link'> Check The LOE?</a>
+<a target="_blank" className='explink' href='https://drive.google.com/file/d/1jdJ38YFuTbM_7BoN_7Q9eTl04P5NcCHY/view?usp=drive_link'> Check The LOE?</a>
           <hr style={{height:"3px",borderWidth:"0",color:"#E40707",backgroundColor:"#E40707"}}/>
           </div>
         <div>
@@ -70,7 +70,7 @@ Development.<br/>
 <p className='exppara'> • Training and tasks related to Social Media Marketing, SEO, Content
 • Writing and Google Sheet Management <br/> • A practical exposure to
  Various essentials of Digital Marketing </p>
-<a className='explink' href='https://drive.google.com/file/d/1ZYMtwc21lhzcuD-4wDaEm7qQW5K65vsK/view?usp=drive_link'> Check The LOE?</a>
+<a target="_blank" className='explink' href='https://drive.google.com/file/d/1ZYMtwc21lhzcuD-4wDaEm7qQW5K65vsK/view?usp=drive_link'> Check The LOE?</a>
           <hr style={{height:"3px",borderWidth:"0",color:"#E40707",backgroundColor:"#E40707"}}/>
           </div>
         <div>

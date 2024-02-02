@@ -20,15 +20,15 @@ const Find2 = () => {
     <div className='find2 col-12 text-center'>
     <h1  style={{marginTop:"-60px",fontFamily:"caveat", fontSize:"6vw",fontWeight:"800", color:"#e40707", border:"none"}}className='col-4 text-center'>  Contact Me On</h1>
     <div className='col-12 text-center'>
-      <a href='tel:0331-4483362'> <FontAwesomeIcon icon={faPhone}  style={{ color: "#e40707"}} /></a>  
-      <a href='https://www.instagram.com/moazzambaig23/'> <FontAwesomeIcon icon={faInstagramSquare}  style={{ color: "#e40707"}} /></a>  
-    <a href='https://www.facebook.com/profile.php?id=100011040979268'> <FontAwesomeIcon icon={faFacebookSquare}  style={{ color: "#e40707"}} /></a>  
-    <a href='https://www.snapchat.com/add/moazzambaig2019?share_id=jKLsgCbH6qg&locale=en-GB '><FontAwesomeIcon icon={faSnapchatSquare}  style={{ color: "#e40707"}} /></a>  
-      <a href='https://www.linkedin.com/in/mirza-muhammad-moazzam-baig-0b127a215/'><FontAwesomeIcon fade icon={faLinkedin} style={{color: "#e40707",}} /></a>
-      <a href='https://github.com/moazzam23'><FontAwesomeIcon icon={faGithub} fade style={{ color: "#e40707" }} /></a>
-      <a href='https://www.behance.net/moazzambaig'><FontAwesomeIcon fade icon={faSquareBehance} style={{color: "#e40707",}} /></a>
-      <a href='mailto:moazzambaig140@gmail.com'><FontAwesomeIcon icon={faEnvelope} bounce style={{color: "#e40707",}} /></a>
-      <a href='https://vercel.com/dashboard'><FontAwesomeIcon icon={faCaretUp}  fade style={{color: "#e40707",height:"5rem",width:"5rem"}} /></a>
+      <a target="_blank" href='tel:0331-4483362'> <FontAwesomeIcon icon={faPhone}  style={{ color: "#e40707"}} /></a>  
+      <a target="_blank" href='https://www.instagram.com/moazzambaig23/'> <FontAwesomeIcon icon={faInstagramSquare}  style={{ color: "#e40707"}} /></a>  
+    <a target="_blank" href='https://www.facebook.com/profile.php?id=100011040979268'> <FontAwesomeIcon icon={faFacebookSquare}  style={{ color: "#e40707"}} /></a>  
+    <a target="_blank" href='https://www.snapchat.com/add/moazzambaig2019?share_id=jKLsgCbH6qg&locale=en-GB '><FontAwesomeIcon icon={faSnapchatSquare}  style={{ color: "#e40707"}} /></a>  
+      <a target="_blank" href='https://www.linkedin.com/in/mirza-muhammad-moazzam-baig-0b127a215/'><FontAwesomeIcon fade icon={faLinkedin} style={{color: "#e40707",}} /></a>
+      <a target="_blank" href='https://github.com/moazzam23'><FontAwesomeIcon icon={faGithub} fade style={{ color: "#e40707" }} /></a>
+      <a target="_blank" href='https://www.behance.net/moazzambaig'><FontAwesomeIcon fade icon={faSquareBehance} style={{color: "#e40707",}} /></a>
+      <a target="_blank" href='mailto:moazzambaig140@gmail.com'><FontAwesomeIcon icon={faEnvelope} bounce style={{color: "#e40707",}} /></a>
+      <a target="_blank" href='https://vercel.com/dashboard'><FontAwesomeIcon icon={faCaretUp}  fade style={{color: "#e40707",height:"5rem",width:"5rem"}} /></a>
     </div>
     <div className="container2">
       <div className="contact-form">

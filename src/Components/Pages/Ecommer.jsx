@@ -63,6 +63,7 @@ const Ecommer = () => {
         <div>
           <div className="projectpage">
             <a
+            target="_blank"
               className="projectbtn"
               style={{ color: "black", marginLeft: "0.8rem" }}
               href="https://github.com/moazzam23/Ecommerce_MERN-STACK"
@@ -72,6 +73,7 @@ const Ecommer = () => {
             </a>
 
             <a
+            target="_blank"
               className="projectbtn"
               style={{ color: "black", marginLeft: "1rem" }}
               href="https://www.loom.com/share/22068c75410a4fbbadae98760e42f863?sid=ea9f531e-f464-47ce-92df-23a27dd674ff"
