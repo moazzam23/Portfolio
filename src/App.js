@@ -4,7 +4,6 @@ import Parent from "./Components/Parent";
 import Project from "./Components/project"
 import { useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import About from "./Components/about";
 import Netflix from "./Components/Pages/Netflix";
 import Chat from "./Components/Pages/Chat";
 import Chaiwala from "./Components/Pages/Chaiwala";
@@ -18,6 +17,7 @@ import Certificate from "./Main Page/Certificate";
 import Education from "./Main Page/Education";
 import Exprience from "./Main Page/Exprience";
 import CustomCursor from "./Components/Customcursor";
+import Socialmedia from "./Components/Pages/Socialmedia";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -46,6 +46,7 @@ function App() {
 <Route path="/foodapp" element={<Food/>}/>
 <Route path="/skills" element={<Skills2/>}/>
 <Route path="/certificate" element={<Certificate/>}/>
+<Route path="/socialapp" element={<Socialmedia/>}/>
 
 </Routes>
 </BrowserRouter>

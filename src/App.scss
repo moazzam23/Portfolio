@@ -776,3 +776,24 @@ body {
   background-color: #c2102a; /* Hover color */
 }
 
+
+.projectbtn{
+  background-color: #c2102ba1;
+  padding: 15px 10px;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.3rem;
+  
+}
+.projectbtn:hover{
+  background-color: #fff;
+  color: #000000;
+}
+.projectpage{
+  display: flex;
+  justify-content: center;
+
+}
