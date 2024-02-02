@@ -10,7 +10,7 @@ const LoadingPage = ({ onLoadComplete }) => {
     const timer = setTimeout(() => {
       setLoadingComplete(true);
       onLoadComplete(); // Notify the parent component that loading is complete
-    }, 4000); 
+    }, 2000); 
 
     return () => clearTimeout(timer);
   }, [onLoadComplete]);
