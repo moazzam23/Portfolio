@@ -65,6 +65,7 @@ const Chat = () => {
         <div>
           <div className="projectpage">
             <a
+            rel="noreferrer"
              target="_blank"
               className="projectbtn"
               style={{ color: "black", marginLeft: "0.8rem" }}
@@ -74,6 +75,7 @@ const Chat = () => {
                Chatting App code{" "}
             </a>
             <a
+            rel="noreferrer"
              target="_blank"
               className="projectbtn"
               style={{ color: "black", marginLeft: "1rem" }}

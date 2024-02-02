@@ -33,7 +33,7 @@ const Corona = () => {
 
 <div>
 <div className='projectpage'>
-<a target="_blank" className='projectbtn' style={{color:"black",marginLeft:"1rem"}} href='https://www.behance.net/gallery/148517665/Covid-App-Prototype'> See Prototype Demo</a>
+<a  rel="noreferrer" target="_blank" className='projectbtn' style={{color:"black",marginLeft:"1rem"}} href='https://www.behance.net/gallery/148517665/Covid-App-Prototype'> See Prototype Demo</a>
   </div>
 
 <br/>

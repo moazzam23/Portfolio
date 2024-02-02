@@ -39,8 +39,8 @@ const Food = () => {
 
 <div> 
   <div className='projectpage'>
-<a target="_blank"  className='projectbtn' style={{color:"black",marginLeft:"0.8rem"}} href='https://github.com/moazzam23/food_dilevery_app'> Food Delivery App code  </a>
-<a target="_blank" className='projectbtn' style={{color:"black",marginLeft:"1rem"}} href='https://food-dilevery-app.vercel.app/'> Vercel (See App Demo)</a>
+<a rel="noreferrer" target="_blank"  className='projectbtn' style={{color:"black",marginLeft:"0.8rem"}} href='https://github.com/moazzam23/food_dilevery_app'> Food Delivery App code  </a>
+<a rel="noreferrer" target="_blank" className='projectbtn' style={{color:"black",marginLeft:"1rem"}} href='https://food-dilevery-app.vercel.app/'> Vercel (See App Demo)</a>
   </div>
 
 <br/>

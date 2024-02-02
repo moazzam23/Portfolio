@@ -40,7 +40,7 @@ const Certificate = () => {
              <label style={{fontSize:"1.1rem",fontWeight:"600"}}>Duration: </label>
             <label style={{fontWeight:"400",paddingLeft:"20px"}}> One Month (Dec 2023 –Dec 2023) </label><br/>
             <label style={{fontSize:"1.1rem",fontWeight:"600"}}>verify at:</label>
-            <a target="_blank" style={{paddingLeft:"10px",color:"red"}} href='https://www.coursera.org/account/accomplishments/verify/4MK4U8C4R6AX'> Click to verify the certificate?</a><br/>
+            <a rel="noreferrer" target="_blank" style={{paddingLeft:"10px",color:"red"}} href='https://www.coursera.org/account/accomplishments/verify/4MK4U8C4R6AX'> Click to verify the certificate?</a><br/>
             <label style={{fontSize:"1.1rem",fontWeight:"600"}}>Skills:</label>
             <label style={{fontWeight:"400",paddingLeft:"20px",paddingTop:"5px"}}>HTML and CSS,
 React (Web Framework),
@@ -66,7 +66,7 @@ Manage code revisions </p>
              <label style={{fontSize:"1.1rem",fontWeight:"600"}}>Duration: </label>
             <label style={{fontWeight:"400",paddingLeft:"20px"}}> One Month (Nov 2023 –Dec 2023) </label><br/>
             <label style={{fontSize:"1.1rem",fontWeight:"600"}}>verify at:</label>
-            <a target="_blank" style={{paddingLeft:"10px",color:"red"}} href='https://www.coursera.org/account/accomplishments/verify/9MKMYGN9XVNA'> Click to verify the certificate?</a><br/>
+            <a rel="noreferrer" target="_blank" style={{paddingLeft:"10px",color:"red"}} href='https://www.coursera.org/account/accomplishments/verify/9MKMYGN9XVNA'> Click to verify the certificate?</a><br/>
             <label style={{fontSize:"1.1rem",fontWeight:"600"}}>Skills:</label>
             <label style={{fontWeight:"400",paddingLeft:"20px",paddingTop:"5px"}}>Version Control, collaboration , Git and Github </label>
         </div>
@@ -87,7 +87,7 @@ Creating and manipulating objects and arrays..The benefits of working with UI fr
              <label style={{fontSize:"1.1rem",fontWeight:"600"}}>Duration: </label>
             <label style={{fontWeight:"400",paddingLeft:"20px"}}> Two Month (Oct 2023 –Dec 2023) </label><br/>
             <label style={{fontSize:"1.1rem",fontWeight:"600"}}>verify at:</label>
-            <a target="_blank" style={{paddingLeft:"10px",color:"red"}} href='https://www.coursera.org/account/accomplishments/verify/NPBJUG5LP6D4'> Click to verify the certificate?</a><br/>
+            <a rel="noreferrer" target="_blank" style={{paddingLeft:"10px",color:"red"}} href='https://www.coursera.org/account/accomplishments/verify/NPBJUG5LP6D4'> Click to verify the certificate?</a><br/>
             <label style={{fontSize:"1.1rem",fontWeight:"600"}}>Skills:</label>
             <label style={{fontWeight:"400",paddingLeft:"20px",paddingTop:"5px"}}>
 JavaScript,
@@ -108,7 +108,7 @@ Object-Oriented Programming (OOP) </label>
              <label style={{fontSize:"1.1rem",fontWeight:"600"}}>Duration: </label>
             <label style={{fontWeight:"400",paddingLeft:"20px"}}> Two Month (Aug 2023 –Oct 2023) </label><br/>
             <label style={{fontSize:"1.1rem",fontWeight:"600"}}>verify at:</label>
-            <a target="_blank" style={{paddingLeft:"10px",color:"red"}} href='https://www.coursera.org/account/accomplishments/verify/XL82DPSXKCJZ'> Click to verify the certificate?</a><br/>
+            <a rel="noreferrer" target="_blank" style={{paddingLeft:"10px",color:"red"}} href='https://www.coursera.org/account/accomplishments/verify/XL82DPSXKCJZ'> Click to verify the certificate?</a><br/>
             <label style={{fontSize:"1.1rem",fontWeight:"600"}}>Skills:</label>
             <label style={{fontWeight:"400",paddingLeft:"20px",paddingTop:"5px"}}>Web Development, HTML and CSS,Responsive Web Design and User Interface </label>
         </div>
@@ -125,7 +125,7 @@ Object-Oriented Programming (OOP) </label>
              <label style={{fontSize:"1.1rem",fontWeight:"600"}}>Duration: </label>
             <label style={{fontWeight:"400",paddingLeft:"20px"}}> One Month (May 2022 – June 2022) </label><br/>
             <label style={{fontSize:"1.1rem",fontWeight:"600"}}>verify at:</label>
-            <a target="_blank" style={{paddingLeft:"10px",color:"red"}} href='https://coursera.org/verify/AYBA97HFQG3W'> Click to verify the certificate?</a><br/>
+            <a rel="noreferrer" target="_blank" style={{paddingLeft:"10px",color:"red"}} href='https://coursera.org/verify/AYBA97HFQG3W'> Click to verify the certificate?</a><br/>
             <label style={{fontSize:"1.1rem",fontWeight:"600"}}>Skills:</label>
             <label style={{fontWeight:"400",paddingLeft:"20px",paddingTop:"5px"}}>Web Design,Web Accessibility,HTML5 and clean code</label>
         </div>
@@ -142,7 +142,7 @@ Object-Oriented Programming (OOP) </label>
              <label style={{fontSize:"1.1rem",fontWeight:"600"}}>Duration: </label>
             <label style={{fontWeight:"400",paddingLeft:"20px"}}> One Month (Dec 2020 –Jan 2021) </label><br/>
             <label style={{fontSize:"1.1rem",fontWeight:"600"}}>verify at:</label>
-            <a target="_blank" style={{paddingLeft:"10px",color:"red"}} href='https://coursera.org/verify/JT744UCBJWGB'> Click to verify the certificate?</a><br/>
+            <a rel="noreferrer" target="_blank" style={{paddingLeft:"10px",color:"red"}} href='https://coursera.org/verify/JT744UCBJWGB'> Click to verify the certificate?</a><br/>
             <label style={{fontSize:"1.1rem",fontWeight:"600"}}>Skills:</label>
             <label style={{fontWeight:"400",paddingLeft:"20px",paddingTop:"5px"}}>Prototype,Wireframe,User Experience Design (UXD) and UX Research </label>
         </div>
@@ -159,7 +159,7 @@ Object-Oriented Programming (OOP) </label>
              <label style={{fontSize:"1.1rem",fontWeight:"600"}}>Duration: </label>
             <label style={{fontWeight:"400",paddingLeft:"20px"}}> One Month (JULY 2021 –AUG 2021) </label><br/>
             <label style={{fontSize:"1.1rem",fontWeight:"600"}}>verify at:</label>
-            <a target="_blank" style={{paddingLeft:"10px",color:"red"}} href='https://www.coursera.org/account/accomplishments/verify/PVFZMFNJLAAC'> Click to verify the certificate?</a><br/>
+            <a rel="noreferrer" target="_blank" style={{paddingLeft:"10px",color:"red"}} href='https://www.coursera.org/account/accomplishments/verify/PVFZMFNJLAAC'> Click to verify the certificate?</a><br/>
             <label style={{fontSize:"1.1rem",fontWeight:"600"}}>Skills:</label>
             <label style={{fontWeight:"400",paddingLeft:"20px",paddingTop:"5px"}}>Professional Email Writing, Communication, Writing </label>
         </div>

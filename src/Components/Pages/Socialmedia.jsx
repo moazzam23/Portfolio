@@ -63,6 +63,7 @@ const Socialmedia = () => {
         <div>
           <div className="projectpage">
             <a
+            rel="noreferrer"
             target="_blank"
               className="projectbtn"
               style={{ color: "black", marginLeft: "0.8rem" }}
@@ -73,6 +74,7 @@ const Socialmedia = () => {
             </a>
 
             <a
+            rel="noreferrer"
             target="_blank"
               className="projectbtn"
               style={{ color: "black", marginLeft: "1rem" }}

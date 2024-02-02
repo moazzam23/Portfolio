@@ -34,16 +34,16 @@ const About2 = () => {
      <br/><br/>My aim to design, develop, and maintain Websites and Apps that meet high standards of quality, performance, reliability, and security and also produce system that is 100% bug free. 
   <br/>  <label style={{paddingTop:"1rem",paddingBottom:"2rem",fontSize:"1.9rem",fontWeight:"800",color:"red",fontFamily:"caveat"}} >Follow Me On:</label><br/>
   <div className='col-1' style={{display:"inline-flex" }}>
-    <a target="_blank" href='https://www.instagram.com/moazzambaig23/'> <FaInstagram style={{color:"red",height:"2rem",width:"2rem"}}/></a>  
-    <a target="_blank" href='https://www.facebook.com/profile.php?id=100011040979268'> <FaFacebook style={{color:"#0a0c91",height:"2rem",width:"2rem"}}/></a>  
+    <a rel="noreferrer" target="_blank" href='https://www.instagram.com/moazzambaig23/'> <FaInstagram style={{color:"red",height:"2rem",width:"2rem"}}/></a>  
+    <a rel="noreferrer" target="_blank" href='https://www.facebook.com/profile.php?id=100011040979268'> <FaFacebook style={{color:"#0a0c91",height:"2rem",width:"2rem"}}/></a>  
     {/* <a href='https://www.behance.net/moazzambaig'><FaBehanceSquare style={{color: "#e40707",height:"2rem",width:"2rem"}} /></a> */}
-    <a target="_blank" href='https://www.linkedin.com/in/mirza-muhammad-moazzam-baig-0b127a215/'> <FaLinkedin style={{color:"#0a0c91",height:"2rem",width:"2rem"}}/></a>  
-    <a target="_blank" href='https://www.snapchat.com/add/moazzambaig2019?share_id=jKLsgCbH6qg&locale=en-GB '> <FaSnapchat style={{color:"yellow",height:"2rem",width:"2rem"}}/></a>  
-    <a target="_blank" href='mailto:moazzambaig140@gmail.com'><FaEnvelope  style={{color: "#e40707",height:"2rem",width:"2rem"}} /></a>
+    <a rel="noreferrer" target="_blank" href='https://www.linkedin.com/in/mirza-muhammad-moazzam-baig-0b127a215/'> <FaLinkedin style={{color:"#0a0c91",height:"2rem",width:"2rem"}}/></a>  
+    <a rel="noreferrer" target="_blank" href='https://www.snapchat.com/add/moazzambaig2019?share_id=jKLsgCbH6qg&locale=en-GB '> <FaSnapchat style={{color:"yellow",height:"2rem",width:"2rem"}}/></a>  
+    <a rel="noreferrer" target="_blank" href='mailto:moazzambaig140@gmail.com'><FaEnvelope  style={{color: "#e40707",height:"2rem",width:"2rem"}} /></a>
     </div></p>
       
       </div>
-      <a href="https://drive.google.com/file/d/14wF3ryG3g_SeLR_J18imtibtWkJIcHxK/view?usp=share_link" rel="noreferrer"
+      <a rel="noreferrer" href="https://drive.google.com/file/d/14wF3ryG3g_SeLR_J18imtibtWkJIcHxK/view?usp=share_link" 
          download="Moazzam_Resume" target='_blank'>
 <button type="button" >See My Resume</button>
 </a>

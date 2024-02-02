@@ -31,8 +31,8 @@ const Netflix = () => {
 
 <div>
 <div className='projectpage'>
-<a target="_blank" className='projectbtn' style={{color:"black",marginLeft:"0.8rem"}} href='https://github.com/moazzam23/Netflix---the-movie-app'><FaGithub style={{height:"2rem",width:"2rem"}}/> NetFlix code  </a>
-<a target="_blank" className='projectbtn' style={{color:"black",marginLeft:"1rem"}} href='https://netflix-the-movie-app-hfcq-git-main-moazzambaig.vercel.app/'> Vercel (See App Demo)</a>
+<a rel="noreferrer"  target="_blank" className='projectbtn' style={{color:"black",marginLeft:"0.8rem"}} href='https://github.com/moazzam23/Netflix---the-movie-app'><FaGithub style={{height:"2rem",width:"2rem"}}/> NetFlix code  </a>
+<a rel="noreferrer" target="_blank" className='projectbtn' style={{color:"black",marginLeft:"1rem"}} href='https://netflix-the-movie-app-hfcq-git-main-moazzambaig.vercel.app/'> Vercel (See App Demo)</a>
   </div>
 
 <br/>
