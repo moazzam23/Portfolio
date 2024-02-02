@@ -2,9 +2,9 @@ import React from "react";
 import Header from "../header/Header";
 import Carousel from "react-bootstrap/Carousel";
 import img1 from "../../Assets/Ecommer/Screenshot (102).png";
-// import img2 from "../../Assets/social/Screenshot (99).png";
-// import img3 from "../../Assets/social/Screenshot (100).png";
-// import img4 from "../../Assets/social/Screenshot (101).png";
+import img2 from "../../Assets/Ecommer/Screenshot (103).png";
+import img3 from "../../Assets/Ecommer/Screenshot (104).png";
+import img4 from "../../Assets/Ecommer/Screenshot (105).png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { BiSolidFileCss, BiLogoReact } from "react-icons/bi";
@@ -228,7 +228,7 @@ const Ecommer = () => {
               <h3>First Slide</h3>
             </Carousel.Caption>
           </Carousel.Item>
-          {/* <Carousel.Item>
+          <Carousel.Item>
             <img src={img2} alt="Second slide" />
             <Carousel.Caption>
               <h3>Second Slide</h3>
@@ -245,7 +245,7 @@ const Ecommer = () => {
             <Carousel.Caption>
               <h3>Third Slide</h3>
             </Carousel.Caption>
-          </Carousel.Item> */}
+          </Carousel.Item>
         </Carousel>
       </div>
       <Footer />

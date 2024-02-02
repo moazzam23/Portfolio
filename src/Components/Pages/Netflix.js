@@ -11,6 +11,7 @@ import { IoLogoJavascript } from "react-icons/io";
 import { useNavigate } from 'react-router-dom';
 import "../Pages/Slider.scss"
 import Footer from '../Footer';
+import { FaGithub } from 'react-icons/fa';
 
 
 const Netflix = () => {
@@ -30,7 +31,7 @@ const Netflix = () => {
 
 <div>
 <div className='projectpage'>
-<a className='projectbtn' style={{color:"black",marginLeft:"0.8rem"}} href='https://github.com/moazzam23/Netflix---the-movie-app'> NetFlix code  </a>
+<a className='projectbtn' style={{color:"black",marginLeft:"0.8rem"}} href='https://github.com/moazzam23/Netflix---the-movie-app'><FaGithub style={{height:"2rem",width:"2rem"}}/> NetFlix code  </a>
 <a className='projectbtn' style={{color:"black",marginLeft:"1rem"}} href='https://netflix-the-movie-app-hfcq-git-main-moazzambaig.vercel.app/'> Vercel (See App Demo)</a>
   </div>
 
