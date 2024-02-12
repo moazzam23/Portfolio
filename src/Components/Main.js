@@ -1,5 +1,6 @@
 import React, {useEffect,useState} from 'react';
 import img from "../Assets/new.png";
+import { TypeAnimation } from 'react-type-animation';
 // import vedio from "../Assets/vedio.mp4";
 
 const Main = () => {
@@ -20,12 +21,27 @@ const Main = () => {
 
 <div className='main1 col-12 ' >
     {/* <video className='col-12 mainvedio' src={""} muted autoPlay loop controlsList="nodownload" /> */}
-  <div className='detail1 col-6 py-3 mt-4'>
+  <div className='detail1 col-6 py-3 mt-2'>
       <h1 style={{paddingLeft:"2rem" , color:"white"}}>
         Hi, <br/>
-                <label style={{paddingLeft:"5vw",fontWeight:"900",fontStyle:"bold"}}> Moa<label style={{color:"red" }}>zz</label>am <label style={{color:"red" }}>B</label>aig</label>
+                <label style={{paddingLeft:"5vw",fontWeight:"900",fontSize:"2em",fontStyle:"bold"}}> Moa<label style={{color:"red" }}>zz</label>am <label style={{color:"red" }}>B</label>aig</label>
       </h1>
-      <h5   style={{paddingLeft:"1rem",marginTop:"3vw" , fontFamily:fontFamily,fontSize:"2vw",color:fontColor,textAlign:"center"}}>Full Stack Developer / Designer  </h5>
+      <TypeAnimation
+      sequence={[
+        'I am a Software Engineer ',
+        1000,
+        'I am a Full-Stack Developer',
+        1000,
+        'I am a Designer',
+        1000,
+        'I love to Code',
+        1000,
+      ]}
+      wrapper="span"
+      speed={50}
+      style={{ fontSize: '3em',marginLeft:"4rem", display: 'inline-block',fontWeight:"900",color:"#f2b8b8",fontStyle:"Rubik Bubbles" }}
+      repeat={Infinity}
+    />
       <div className='btndiv' >
         <a className='mainbtn' href='/project'>View My Projects </a>
         <a  className='mainbtn' href='/join' >Connect With Me </a>
