@@ -16,7 +16,22 @@ const LoadingPage = ({ onLoadComplete }) => {
   return (
 <>
 
-<div class="shell">
+
+
+    
+
+    <div className=" col-12 loading-page">
+      <div className="page2">
+        <h1>  Wait Something Interesting Is Loading</h1>
+        <h2>Moazzam Baig</h2>
+        {/* <article id="loader_wrapper">
+          <section class="loader"></section>
+          <section class="loader_section section_left"></section>
+          <section class="loader_section section_right"></section>
+        </article> */}
+        {/* <h1 className=' pt-2'> Loading<FontAwesomeIcon icon={faSpinner} shake size="sm"  className='ps-3 pt-2'  style={{color: "#e40707",}} /></h1> */}
+      </div>
+      <div class="shell">
 			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 101.3 101.3" style={{enableBackground:"new 0 0 101.3 101.3;"}} xmlSpace="preserve">
 
@@ -33,20 +48,6 @@ const LoadingPage = ({ onLoadComplete }) => {
   <br/>
   <br/>
 </div>
-
-    
-
-    <div className=" col-12 loading-page">
-      <div className="page2">
-        <h1>  Wait Something Interesting Is Loading</h1>
-        <h2>Moazzam Baig</h2>
-        {/* <article id="loader_wrapper">
-          <section class="loader"></section>
-          <section class="loader_section section_left"></section>
-          <section class="loader_section section_right"></section>
-        </article> */}
-        {/* <h1 className=' pt-2'> Loading<FontAwesomeIcon icon={faSpinner} shake size="sm"  className='ps-3 pt-2'  style={{color: "#e40707",}} /></h1> */}
-      </div>
     </div>
     </>  );
 };

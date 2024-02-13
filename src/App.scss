@@ -640,11 +640,13 @@ p{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 30px;
   color: #e40707;
   text-align: center;
   font-family: 'Rubik Bubbles';
 }
 .page2{
+  margin-top: -150px;
 //   position: relative; // Add position relative
 // padding: 20px;
 // height: 45%;
