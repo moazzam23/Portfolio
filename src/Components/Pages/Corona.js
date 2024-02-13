@@ -25,11 +25,7 @@ const Corona = () => {
     <h1 className="col-12 text-center" style={{ color: '#c2102a',marginTop:"-50px" , fontFamily:"caveat", fontWeight:"800", fontSize:"5vw" }}>
         Corona (Covid-2019) App 
     </h1>
-    <p style={{marginLeft:"3rem",marginRight:"3rem"}} > This is a single page application that Contain upcoming 
-    movie, popular, and watch before. I this project i have used technologies like Sass, 
-    CSS, React JS, React-Router, React-Bootstrap , 
-    React-Router-Dom , Axios, Sass. 
-    I have intergate the Apis to get movie in the rows diffenrtly like for popular , upcoming  etc.   Netflix is one of the world's leading entertainment services with over 247 million paid memberships in over 190 countries enjoying TV series </p>
+    <p style={{marginLeft:"3rem",marginRight:"3rem"}} > <b>1.</b> It is the prototyping of app named as Corona (2019).<br/><b>2.</b> The prototying is made on AdobeXD. <br/><b>3.</b>It conatin several screen and each screen have its own functionalities. <br/><b>4.</b> It have complete navigation to different page. </p>
 
 <div>
 <div className='projectpage'>

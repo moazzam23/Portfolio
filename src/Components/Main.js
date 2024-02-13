@@ -28,9 +28,11 @@ const Main = () => {
       </h1>
       <TypeAnimation
       sequence={[
-        'I am a Software Engineer ',
+        'I am Software Engineer ',
         1000,
-        'I am a Full-Stack Developer',
+        'I am Mern-Stack Developer',
+        1000,
+        'I am Frontend Developer',
         1000,
         'I am a Designer',
         1000,

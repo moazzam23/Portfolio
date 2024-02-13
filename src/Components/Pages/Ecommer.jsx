@@ -56,8 +56,8 @@ const Ecommer = () => {
         </h1>
         <p style={{ marginLeft: "3rem", marginRight: "3rem" }}>
           {" "}
-          It a Full stack Social Media App, made using TypeScript React JS ,Node JS
-          ,Express JS and Mongo DB. In this app you can register yourself, login using Google,Admin can see all user,product and order and Transaction Details. Where user other then admin can only see product and their own profile to make order or find any product. User can place order and select the payment method. Admin Can make new product , update them , manage stock and also maintain the record to be seen. 
+        <b>1.</b>  It a Full stack Social Media App, made using TypeScript React JS ,Node JS
+          ,Express JS and Mongo DB.<br/><b>1.</b> In this app you can register yourself, login using Google. <br/><b>3.</b>Admin can see all user,product and order and Transaction Details.<br/><b>4.</b> Where user other then admin can only see product and their own profile to make order or find any product.<br/><b>5.</b> User can place order and select the payment method. <br/><b>6.</b> Admin Can make new product , update them , manage stock and also maintain the record to be seen. 
         </p>
 
         <div>

@@ -55,7 +55,7 @@ const Socialmedia = () => {
         </h1>
         <p style={{ marginLeft: "3rem", marginRight: "3rem" }}>
           {" "}
-          It a Full stack Social Media App, made using React JS ,Node JS
+       <b>1.</b>   It a Full stack Social Media App, made using React JS ,Node JS
           ,Express JS and Mongo DB. In this app you can register yourself, login , forgot password, can see your profile and also other users profile, you can also follow other user, Create New Post,like the post, comments on post, edit profile, Update Password and also delete Your Profile,
           You can see the post of follower in your Home page. 
         </p>

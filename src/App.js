@@ -20,6 +20,7 @@ import CustomCursor from "./Components/Customcursor";
 import Socialmedia from "./Components/Pages/Socialmedia";
 import NotFound from "./Components/NotFound";
 import Ecommer from "./Components/Pages/Ecommer";
+import Jobseeking from "./Components/Pages/Jobseeking";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -50,6 +51,7 @@ function App() {
 <Route path="/certificate" element={<Certificate/>}/>
 <Route path="/socialapp" element={<Socialmedia/>}/>
 <Route path="/ecommerceapp" element={<Ecommer/>}/>
+<Route path="/jobseeking" element={<Jobseeking/>}/>
 <Route path="*" element={<NotFound/>}/>
 
 </Routes>

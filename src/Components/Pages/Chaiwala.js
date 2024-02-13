@@ -29,11 +29,11 @@ const Chaiwala = () => {
     <h1 className="col-12 text-center" style={{ color: '#c2102a',marginTop:"-50px", fontFamily:"caveat", fontWeight:"800", fontSize:"5vw" }}>
     Pakistani Chai Wala
     </h1>
-    <p style={{marginLeft:"3rem",marginRight:"3rem"}} > This is a single page application that Contain upcoming 
-    movie, popular, and watch before. I this project i have used technologies like Sass, 
+    <p style={{marginLeft:"3rem",marginRight:"3rem"}} > <b> 1.</b>This is a single page application that Contain upcoming 
+    movie, popular, and watch before.<br/><b> 2.</b> In this project i have used technologies like Sass, 
     CSS, React JS, React-Router, React-Bootstrap , 
     React-Router-Dom , Axios, Sass. 
-    I have intergate the Apis to get movie in the rows diffenrtly like for popular , upcoming  etc.   Netflix is one of the world's leading entertainment services with over 247 million paid memberships in over 190 countries enjoying TV series </p>
+   <br/> <b> 3.</b> This app is full of animations and color<br/> <b> 4.</b>  Its Colorful interface shows the attractiveness of the user</p>
 
 <div>
 <div className='projectpage'>

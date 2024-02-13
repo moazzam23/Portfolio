@@ -53,13 +53,8 @@ const Chat = () => {
         </h1>
         <p style={{ marginLeft: "3rem", marginRight: "3rem" }}>
           {" "}
-          This is a single page application that Contain upcoming movie,
-          popular, and watch before. I this project i have used technologies
-          like Sass, CSS, React JS, React-Router, React-Bootstrap ,
-          React-Router-Dom , Axios, Sass. I have intergate the Apis to get movie
-          in the rows diffenrtly like for popular , upcoming etc. Netflix is one
-          of the world's leading entertainment services with over 247 million
-          paid memberships in over 190 countries enjoying TV series{" "}
+         <b>1.</b> This is a single page application that made using React JS.<br/><b>2.</b> It is a chat App in which you can perform certain tasks.
+         <br/><b>3.</b> First you have to login using Google and then you ca chat with any one.<br/><b>4.</b> You can chat with anyone and can also delete the message <br/><b>5.</b> After Chatting you can logout from the app. 
         </p>
 
         <div>
