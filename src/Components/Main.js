@@ -22,9 +22,9 @@ const Main = () => {
 <div className='main1 col-12 ' >
     {/* <video className='col-12 mainvedio' src={""} muted autoPlay loop controlsList="nodownload" /> */}
   <div className='detail1 col-6 py-3 mt-2'>
-      <h1 style={{paddingLeft:"2rem" , color:"white"}}>
-        Hi, <br/>
-                <label style={{paddingLeft:"5vw",fontWeight:"900",fontSize:"2em",fontStyle:"bold"}}> Moa<label style={{color:"red" }}>zz</label>am <label style={{color:"red" }}>B</label>aig</label>
+      <h1 style={{paddingLeft:"2rem" , color:"#87bbd7"}}>
+       <b style={{color:"#e6b544"}}> Hi,</b> <br/>
+                <label style={{paddingLeft:"5vw",fontWeight:"900",fontSize:"2em",fontStyle:"bold"}}> Moa<label style={{color:"#e6b544" }}>zz</label>am <label style={{color:"#e6b544" }}>B</label>aig</label>
       </h1>
       <TypeAnimation
       sequence={[
@@ -41,7 +41,7 @@ const Main = () => {
       ]}
       wrapper="span"
       speed={50}
-      style={{ fontSize: '3em',marginLeft:"4rem", display: 'inline-block',fontWeight:"900",color:"#f2b8b8",fontStyle:"Rubik Bubbles" }}
+      style={{ fontSize: '3em',marginLeft:"4rem", display: 'inline-block',fontWeight:"900",color:"#87bbd7",fontStyle:"Rubik Bubbles" }}
       repeat={Infinity}
     />
       <div className='btndiv' >

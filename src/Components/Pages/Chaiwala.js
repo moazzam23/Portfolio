@@ -24,12 +24,12 @@ const Chaiwala = () => {
   return (
 <>
     <Header />
-    <div style={{backgroundColor:"#be686849", marginTop:"-24px" , borderTop:"2px solid #e40707"}}>     
-    <FontAwesomeIcon onClick={handleback} icon={faCircleArrowLeft} shake className='pt-3' style={{color: "#e7230d",height:"3rem",width:"3rem",paddingLeft:"25px" }} />
-    <h1 className="col-12 text-center" style={{ color: '#c2102a',marginTop:"-50px", fontFamily:"caveat", fontWeight:"800", fontSize:"5vw" }}>
+    <div style={{backgroundColor:"#87bbd7", marginTop:"-24px" , borderTop:"2px solid #0b4251"}}>     
+    <FontAwesomeIcon onClick={handleback} icon={faCircleArrowLeft} shake className='pt-3 backbtn'  />
+    <h1 className="col-12 text-center heading" >
     Pakistani Chai Wala
     </h1>
-    <p style={{marginLeft:"3rem",marginRight:"3rem"}} > <b> 1.</b>This is a single page application that Contain upcoming 
+    <p style={{marginLeft:"3rem",marginRight:"3rem",fontSize:"1.2rem",fontWeight:"700"}} > <b> 1.</b>This is a single page application that Contain upcoming 
     movie, popular, and watch before.<br/><b> 2.</b> In this project i have used technologies like Sass, 
     CSS, React JS, React-Router, React-Bootstrap , 
     React-Router-Dom , Axios, Sass. 
@@ -37,17 +37,17 @@ const Chaiwala = () => {
 
 <div>
 <div className='projectpage'>
-<a rel="noreferrer" target="_blank" className='projectbtn' style={{color:"black",marginLeft:"0.8rem"}} href='https://github.com/moazzam23/Pakistani-Chai-Wala'> Pakistani Chai Wala code  </a>
-<a rel="noreferrer" target="_blank" className='projectbtn' style={{color:"black",marginLeft:"1rem"}} href='https://pakistni-chai-wala-1dofs629j-moazzambaig.vercel.app/'> Vercel (See App Demo)</a>
+<a rel="noreferrer" target="_blank" className='projectbtn' style={{marginLeft:"0.8rem"}} href='https://github.com/moazzam23/Pakistani-Chai-Wala'> Pakistani Chai Wala code  </a>
+<a rel="noreferrer" target="_blank" className='projectbtn' style={{marginLeft:"1rem"}} href='https://pakistni-chai-wala-1dofs629j-moazzambaig.vercel.app/'> Vercel (See App Demo)</a>
   </div>
 
 <br/>
-<label style={{ fontSize:'1rem', border:"none",borderRadius:"6px", marginTop:"0.5rem" , marginLeft:'3rem', padding:"3px",fontWeight:"bolder"}} >Stack :</label>
-<label className='text-center'  style={{ borderLeft:"15px solid #e40707",  fontWeight:"bolder",paddingRight:"10px",color:"black",marginLeft:"1rem", backgroundColor:"#FC8B8B", borderRadius:"6px"}} ><BiLogoSass color='black' style={{height:"1rem",width:"1rem"}} /> Sass</label> 
-<label className='text-center'  style={{ borderLeft:"15px solid black",  fontWeight:"bolder",paddingRight:"10px",color:"black",marginLeft:"1rem", backgroundColor:"#40a5db", borderRadius:"6px"}} ><BiSolidFileCss color='black' style={{height:"1rem",width:"1rem"}} /> CSS</label> 
-<label className='text-center'  style={{ borderLeft:"15px solid black",  fontWeight:"bolder",paddingRight:"10px",color:"black",marginLeft:"1rem", backgroundColor:"#40a5db", borderRadius:"6px"}} ><BiLogoReact color='black' style={{height:"1rem",width:"1rem"}} /> React JS</label> 
-<label className='text-center'  style={{ borderLeft:"15px solid black",  fontWeight:"bolder",paddingRight:"10px",color:"black",marginLeft:"1rem", backgroundColor:"#face0a", borderRadius:"6px"}} ><IoLogoJavascript color='black' style={{height:"1rem",width:"1rem"}} /> Javascript</label> 
-<label className='text-center'  style={{ borderLeft:"15px solid black",  fontWeight:"bolder",paddingRight:"10px",color:"black",marginLeft:"1rem", backgroundColor:"#FC8B8B", borderRadius:"6px"}} ><MdAnimation color='black' style={{height:"1rem",width:"1rem"}} /> Animation</label> 
+<label style={{ fontSize:'1.3rem',textDecoration:"underline", border:"none",borderRadius:"6px", marginTop:"0.5rem" , marginLeft:'3rem', padding:"3px",fontWeight:"bolder"}} >Stack :</label>
+<label className='text-center iconp'   ><BiLogoSass className='iconpp' /> Sass</label> 
+<label className='text-center iconp' ><BiSolidFileCss className='iconpp' /> CSS</label> 
+<label className='text-center iconp' ><BiLogoReact className='iconpp' /> React JS</label> 
+<label className='text-center iconp' ><IoLogoJavascript className='iconpp' /> Javascript</label> 
+<label className='text-center iconp' ><MdAnimation className='iconpp' /> Animation</label> 
 {/* <label className='text-center'  style={{ borderLeft:"15px solid #e40707",  fontWeight:"bolder",paddingRight:"10px",color:"black",marginLeft:"1rem", backgroundColor:"#FC8B8B", borderRadius:"6px"}} ><BiLogoSass color='black' style={{height:"1rem",width:"1rem"}} /> Sass</label>  */}
 
 </div>

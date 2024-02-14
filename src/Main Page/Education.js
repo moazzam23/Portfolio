@@ -16,9 +16,9 @@ const Education = () => {
   return (
 <>
 <Header/>
-<div className='col-12' style={{backgroundColor:"#be686849",marginTop:"-24px", borderTop:"2px solid #e40707"}}>
-<FontAwesomeIcon onClick={handleback} icon={faCircleArrowLeft} shake className='mt-4' style={{color: "#e7230d",height:"3rem",width:"3rem",paddingLeft:"25px" }} />
-        <h2 style={{textAlign:"center",marginTop:"-50px", color:"#e40707",fontWeight:"800",fontFamily:"caveat",fontSize:'6vw',marginBottom:"2rem"}}>Education</h2>
+<div className='col-12' style={{backgroundColor:"#87bbd7",marginTop:"-24px", borderTop:"2px solid #0b4251"}}>
+<FontAwesomeIcon onClick={handleback} icon={faCircleArrowLeft} shake className='pt-3 backbtn'/>
+        <h2 style={{textAlign:"center",marginTop:"-50px", color:"#0b4251",fontWeight:"800",fontFamily:"caveat",fontSize:'6vw',marginBottom:"2rem"}}>Education</h2>
         <div className=' educ d-flex flex-row col-12'>
 
     <div className='d-flex flex-column col-6 justify-content-around' >

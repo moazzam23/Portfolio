@@ -8,6 +8,7 @@ import img6 from "../Assets/certificates/java.png";
 import img2 from "../Assets/certificates/html.png";
 import img7 from "../Assets/certificates/21.png";
 import img8 from "../Assets/certificates/Screenshot (110).png";
+import img9 from "../Assets/certificates/Screenshot (119).png";
 import img4 from "../Assets/certificates/meta.png";
 import img3 from "../Assets/certificates/graphic.png";
 import { useNavigate } from "react-router-dom";
@@ -26,27 +27,22 @@ const Certificate = () => {
         className="col-12"
         style={{
           marginTop: "-25px",
-          backgroundColor: "#be686849",
-          borderTop: "2px solid #e40707",
+          backgroundColor: "#87bbd7",
+          borderTop: "2px solid #0b4251",
         }}
       >
         <FontAwesomeIcon
           onClick={handleback}
           icon={faCircleArrowLeft}
           shake
-          className="mt-4"
-          style={{
-            color: "#e7230d",
-            height: "3rem",
-            width: "3rem",
-            paddingLeft: "25px",
-          }}
+          className="pt-3 backbtn"
+        
         />
         <h2
           style={{
             textAlign: "center",
             marginTop: "-50px",
-            color: "#e40707",
+            color: "#0b4251",
             fontSize: "6vw",
             fontFamily: "caveat",
             fontWeight: "800",
@@ -59,10 +55,61 @@ const Certificate = () => {
         <div className="cardmain2 col-12">
           <div className="card3">
             <div className="image2 ">
+              <img src={img9} alt="card" />
+            </div>
+            <div className="cardbody3 ">
+              <h4 className=" text-center headingc">Advance React</h4>
+              <label style={{ fontSize: "1rem", fontWeight: "600" }}>
+                Goals Achieved:
+              </label>
+              <p>
+                <b> 1.</b> Create robust and reusable components with advanced techniques and learn different patterns.Interact with a remote server and fetch and post data via an API<br /> <b> 2.</b>{" "}
+                Integrate commonly used React libraries to streamline your application development              </p>
+              <label style={{ fontSize: "1.1rem", fontWeight: "600" }}>
+                Duration:{" "}
+              </label>
+              <label style={{ fontWeight: "400", paddingLeft: "20px" }}>
+                {" "}
+                One Month (Jan 2024 –Feb 2024){" "}
+              </label>
+              <br />
+              <label style={{ fontSize: "1.1rem", fontWeight: "600" }}>
+                verify at:
+              </label>
+              <a
+                rel="noreferrer"
+                target="_blank"
+                style={{ paddingLeft: "10px", color: "#0b4251",fontWeight:"800" }}
+                href="https://www.coursera.org/account/accomplishments/verify/JJGR2PW96Q44"
+              >
+                {" "}
+                Click to verify the certificate?
+              </a>
+              <br />
+              <label style={{ fontSize: "1.1rem", fontWeight: "600" }}>
+                Skills:
+              </label>
+              <label
+                style={{
+                  fontWeight: "400",
+                  paddingLeft: "20px",
+                  paddingTop: "5px",
+                }}
+              >
+                React (Web Framework),
+Unit Testing,
+Web Application
+              </label>
+            </div>
+          </div>
+        </div>
+        <div className="cardmain2 col-12">
+          <div className="card3">
+            <div className="image2 ">
               <img src={img8} alt="card" />
             </div>
             <div className="cardbody3 ">
-              <h4 className=" text-center">React Basic</h4>
+              <h4 className=" text-center headingc">React Basic</h4>
               <label style={{ fontSize: "1rem", fontWeight: "600" }}>
                 Goals Achieved:
               </label>
@@ -87,7 +134,7 @@ const Certificate = () => {
               <a
                 rel="noreferrer"
                 target="_blank"
-                style={{ paddingLeft: "10px", color: "red" }}
+                style={{ paddingLeft: "10px", color: "#0b4251",fontWeight:"800" }}
                 href="https://www.coursera.org/account/accomplishments/verify/LD6HKSDVRK6L"
               >
                 {" "}
@@ -117,7 +164,7 @@ Web Application
               <img src={img7} alt="card" />
             </div>
             <div className="cardbody3 ">
-              <h4 className=" text-center">Indepth HTLM And CSS</h4>
+              <h4 className=" text-center headingc">Indepth HTLM And CSS</h4>
               <label style={{ fontSize: "1rem", fontWeight: "600" }}>
                 Goals Achieved:
               </label>
@@ -141,7 +188,7 @@ Web Application
               <a
                 rel="noreferrer"
                 target="_blank"
-                style={{ paddingLeft: "10px", color: "red" }}
+                style={{ paddingLeft: "10px", color: "#0b4251",fontWeight:"800" }}
                 href="https://www.coursera.org/account/accomplishments/verify/4MK4U8C4R6AX"
               >
                 {" "}
@@ -169,7 +216,7 @@ Web Application
               <img src={img5} alt="card" />
             </div>
             <div className="cardbody3 ">
-              <h4 className=" text-center">Version Control</h4>
+              <h4 className=" text-center headingc">Version Control</h4>
               <label style={{ fontSize: "1rem", fontWeight: "600" }}>
                 Goals Achieved:
               </label>
@@ -193,7 +240,7 @@ Web Application
               <a
                 rel="noreferrer"
                 target="_blank"
-                style={{ paddingLeft: "10px", color: "red" }}
+                style={{ paddingLeft: "10px", color: "#0b4251",fontWeight:"800" }}
                 href="https://www.coursera.org/account/accomplishments/verify/9MKMYGN9XVNA"
               >
                 {" "}
@@ -221,7 +268,7 @@ Web Application
               <img src={img6} alt="card" />
             </div>
             <div className="cardbody3 ">
-              <h4 className=" text-center">Programming With JavaScript</h4>
+              <h4 className=" text-center headingc">Programming With JavaScript</h4>
               <label style={{ fontSize: "1rem", fontWeight: "600" }}>
                 Goals Achieved:
               </label>
@@ -246,7 +293,7 @@ Web Application
               <a
                 rel="noreferrer"
                 target="_blank"
-                style={{ paddingLeft: "10px", color: "red" }}
+                style={{ paddingLeft: "10px", color: "#0b4251",fontWeight:"800" }}
                 href="https://www.coursera.org/account/accomplishments/verify/NPBJUG5LP6D4"
               >
                 {" "}
@@ -276,7 +323,7 @@ Web Application
               <img src={img4} alt="card" />
             </div>
             <div className="cardbody3 ">
-              <h4 className=" text-center">
+              <h4 className=" text-center headingc">
                 Introduction to Front-End Development
               </h4>
               <label style={{ fontSize: "1rem", fontWeight: "600" }}>
@@ -303,7 +350,7 @@ Web Application
               <a
                 rel="noreferrer"
                 target="_blank"
-                style={{ paddingLeft: "10px", color: "red" }}
+                style={{ paddingLeft: "10px", color: "#0b4251",fontWeight:"800" }}
                 href="https://www.coursera.org/account/accomplishments/verify/XL82DPSXKCJZ"
               >
                 {" "}
@@ -332,7 +379,7 @@ Web Application
               <img src={img2} alt="card" />
             </div>
             <div className="cardbody3 ">
-              <h4 className=" text-center">Introduction To HTML5</h4>
+              <h4 className=" text-center headingc">Introduction To HTML5</h4>
               <label style={{ fontSize: "1.1rem", fontWeight: "600" }}>
                 Goals Achieved:
               </label>
@@ -357,7 +404,7 @@ Web Application
               <a
                 rel="noreferrer"
                 target="_blank"
-                style={{ paddingLeft: "10px", color: "red" }}
+                style={{ paddingLeft: "10px", color: "#0b4251",fontWeight:"800"}}
                 href="https://coursera.org/verify/AYBA97HFQG3W"
               >
                 {" "}
@@ -385,7 +432,7 @@ Web Application
               <img src={img} alt="card" />
             </div>
             <div className="cardbody3 ">
-              <h4 className=" text-center">
+              <h4 className=" text-center headingc">
                 Foundation Of User Exprience (UX) Design
               </h4>
               <label style={{ fontSize: "1.1rem", fontWeight: "600" }}>
@@ -411,7 +458,7 @@ Web Application
               <a
                 rel="noreferrer"
                 target="_blank"
-                style={{ paddingLeft: "10px", color: "red" }}
+                style={{ paddingLeft: "10px", color: "#0b4251",fontWeight:"800" }}
                 href="https://coursera.org/verify/JT744UCBJWGB"
               >
                 {" "}
@@ -439,7 +486,7 @@ Web Application
               <img src={img1} alt="card" />
             </div>
             <div className="cardbody3 ">
-              <h4 className=" text-center">
+              <h4 className=" text-center headingc">
                 Write Professional E-mails In English
               </h4>
               <label style={{ fontSize: "1.1rem", fontWeight: "600" }}>
@@ -466,7 +513,7 @@ Web Application
               <a
                 rel="noreferrer"
                 target="_blank"
-                style={{ paddingLeft: "10px", color: "red" }}
+                style={{ paddingLeft: "10px",color: "#0b4251",fontWeight:"800" }}
                 href="https://www.coursera.org/account/accomplishments/verify/PVFZMFNJLAAC"
               >
                 {" "}
@@ -494,7 +541,7 @@ Web Application
               <img src={img3} alt="card" />
             </div>
             <div className="cardbody3 ">
-              <h4 className=" text-center">Graphic Designing Course </h4>
+              <h4 className=" text-center headingc">Graphic Designing Course </h4>
               <label style={{ fontSize: "1.1rem", fontWeight: "600" }}>
                 Goals Achieved:
               </label>

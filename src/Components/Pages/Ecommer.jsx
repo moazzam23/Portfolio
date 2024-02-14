@@ -26,35 +26,23 @@ const Ecommer = () => {
       <div
         className="col-12"
         style={{
-          backgroundColor: "#be686849",
+          backgroundColor: "#87bbd7",
           marginTop: "-24px",
-          borderTop: "2px solid #e40707",
+          borderTop: "2px solid #0b4251",
         }}
       >
         <FontAwesomeIcon
           onClick={handleback}
           icon={faCircleArrowLeft}
           shake
-          style={{
-            color: "#e7230d",
-            height: "3rem",
-            width: "3rem",
-            paddingLeft: "25px",
-          }}
-        />
+          className="pt-3 backbtn"       />
         <h1
-          className="col-12 text-center"
-          style={{
-            color: "#c2102a",
-            marginTop: "-50px",
-            fontFamily: "caveat",
-            fontWeight: "800",
-            fontSize: "5vw",
-          }}
+          className="col-12 heading text-center"
+          
         >
        Ecommerce Store
         </h1>
-        <p style={{ marginLeft: "3rem", marginRight: "3rem" }}>
+        <p style={{ marginLeft: "3rem",fontSize:"1.2rem",fontWeight:"700", marginRight: "3rem" }}>
           {" "}
         <b>1.</b>  It a Full stack Social Media App, made using TypeScript React JS ,Node JS
           ,Express JS and Mongo DB.<br/><b>1.</b> In this app you can register yourself, login using Google. <br/><b>3.</b>Admin can see all user,product and order and Transaction Details.<br/><b>4.</b> Where user other then admin can only see product and their own profile to make order or find any product.<br/><b>5.</b> User can place order and select the payment method. <br/><b>6.</b> Admin Can make new product , update them , manage stock and also maintain the record to be seen. 
@@ -66,7 +54,7 @@ const Ecommer = () => {
             rel="noreferrer"
             target="_blank"
               className="projectbtn"
-              style={{ color: "black", marginLeft: "0.8rem" }}
+              style={{marginLeft: "0.8rem" }}
               href="https://github.com/moazzam23/Ecommerce_MERN-STACK"
             >
               {" "}
@@ -77,7 +65,7 @@ const Ecommer = () => {
             rel="noreferrer"
             target="_blank"
               className="projectbtn"
-              style={{ color: "black", marginLeft: "1rem" }}
+              style={{marginLeft: "1rem" }}
               href="https://www.loom.com/share/22068c75410a4fbbadae98760e42f863?sid=ea9f531e-f464-47ce-92df-23a27dd674ff"
             >
               {" "}
@@ -88,8 +76,9 @@ const Ecommer = () => {
           <br />
           <label
             style={{
-              fontSize: "1rem",
+              fontSize: "1.3rem",
               border: "none",
+              textDecoration:"underline",
               borderRadius: "6px",
               marginTop: "0.5rem",
               marginLeft: "3rem",
@@ -100,127 +89,57 @@ const Ecommer = () => {
             Stack
           </label>
           <label
-            className="text-center"
-            style={{
-              borderLeft: "15px solid black",
-              fontWeight: "bolder",
-              paddingRight: "10px",
-              color: "black",
-              marginLeft: "1rem",
-              backgroundColor: "#40a5db",
-              borderRadius: "6px",
-            }}
-          >
+            className="text-center iconp"
+           >
             <BiSolidFileCss
-              color="black"
-              style={{ height: "1rem", width: "1rem" }}
+className="iconpp"
             />{" "}
             CSS
           </label>
          
           <label
-            className="text-center"
-            style={{
-              borderLeft: "15px solid black",
-              fontWeight: "bolder",
-              paddingRight: "10px",
-              color: "black",
-              marginLeft: "1rem",
-              backgroundColor: "#40a5db",
-              borderRadius: "6px",
-            }}
+            className="text-center iconp"
           >
             <SiTypescript
-              color="black"
-              style={{ height: "1rem", width: "1rem" }}
+             className="iconpp"
             />{" "}
             TypeScript
           </label>
           <label
-            className="text-center"
-            style={{
-              borderLeft: "15px solid black",
-              fontWeight: "bolder",
-              paddingRight: "10px",
-              color: "black",
-              marginLeft: "1rem",
-              backgroundColor: "#40a5db",
-              borderRadius: "6px",
-            }}
+            className="text-center iconp"
           >
             <BiLogoReact
-              color="black"
-              style={{ height: "1rem", width: "1rem" }}
+            className="iconpp"
             />{" "}
             React JS
           </label>
           <label
-            className="text-center"
-            style={{
-              borderLeft: "15px solid black",
-              fontWeight: "bolder",
-              paddingRight: "10px",
-              color: "black",
-              marginLeft: "1rem",
-              backgroundColor: "#face0a",
-              borderRadius: "6px",
-            }}
+            className="text-center iconp"
+           
           >
-            <FaNode color="black" style={{ height: "1rem", width: "1rem" }} />{" "}
+            <FaNode className="iconpp" />{" "}
             Node JS
           </label>
           <label
-            className="text-center"
-            style={{
-              borderLeft: "15px solid black",
-              fontWeight: "bolder",
-              paddingRight: "10px",
-              color: "black",
-              marginLeft: "1rem",
-              backgroundColor: "#face0a",
-              borderRadius: "6px",
-            }}
+            className="text-center iconp"
           >
             <SiExpress
-              color="black"
-              style={{ height: "1rem", width: "1rem" }}
+className="iconpp"
             />{" "}
             Express JS
           </label>
           <label
-            className="text-center"
-            style={{
-              borderLeft: "15px solid black",
-              fontWeight: "bolder",
-              paddingRight: "10px",
-              color: "black",
-              marginLeft: "1rem",
-              backgroundColor: "#face0a",
-              borderRadius: "6px",
-            }}
+            className="text-center iconp"
           >
             <SiMongodb
-              color="black"
-              style={{ height: "1rem", width: "1rem" }}
-            />{" "}
+              className="iconpp"/>{" "}
             Mongo DB
           </label>
           <label
-            className="text-center"
-            style={{
-              borderLeft: "15px solid black",
-              fontWeight: "bolder",
-              paddingRight: "10px",
-              color: "black",
-              marginLeft: "1rem",
-              backgroundColor: "#face0a",
-              borderRadius: "6px",
-            }}
+            className="text-center iconp"
           >
             <SiMongoose
-              color="black"
-              style={{ height: "1rem", width: "1rem" }}
-            />{" "}
+className="iconpp"            />{" "}
             Mongoose
           </label>
           {/* <label className='text-center'  style={{ borderLeft:"15px solid #e40707",  fontWeight:"bolder",paddingRight:"10px",color:"black",marginLeft:"1rem", backgroundColor:"#FC8B8B", borderRadius:"6px"}} ><BiLogoSass color='black' style={{height:"1rem",width:"1rem"}} /> Sass</label>  */}

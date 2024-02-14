@@ -1,6 +1,6 @@
 // // @import '~bootstrap/scss/bootstrap';
 
-// .slider{
+
 //     .carousel-item {
 //   height: 65vh;
 //   min-height: 300px;
@@ -20,11 +20,11 @@
 
   .contact-form {
     max-width: 55rem;
-    box-shadow: 0px 10px 20px #ca3e3e;
+    box-shadow: 0px 10px 20px #0b4251;
     margin: auto;
     font-family: playfair;
     font-weight: 900;
-    border: 1px solid #e40707;
+    border: 1px solid #0b4251;
     border-radius: 10px;
 
     .contact-inputs {
@@ -34,13 +34,13 @@
       border: none;
       gap: 3rem;
       input {
-        border: 1px solid #e40707;
+        border: 1px solid #0b4251;
         border-radius: 5px;
         padding: 7px 6px;
         text-transform: capitalize;
       }
       textarea {
-        border: 1px solid #e40707;
+        border: 1px solid #0b4251;
         border-radius: 5px;
         padding: 7px 6px;
         text-transform: capitalize;
@@ -48,16 +48,16 @@
       input[type="submit"] {
         cursor: pointer;
         width: 5rem;
-        background-color: #be686849;
+        background-color: #87bbd7;
         color: black;
-        border: 1px solid #e40707;
+        border: 1px solid #0b4251;
         border-radius: 4px;
         transition: all 0.2s;
 
         &:hover {
-          background-color: #e40707;
-          border: 1px solid silver;
-          color: white;
+          background-color: #0b4251;
+          border: 1px solid #87bbd7;
+          color: #87bbd7;
           transform: scale(0.9);
         }
       }

@@ -1,6 +1,7 @@
 .education{
-    background-color: #e47f7f;
-    border-radius: 6px;
+    background-color: #0b4251;
+    color: #e6b544;
+     border-radius: 6px;
     justify-content: space-between;
     display: inline-flex;
     margin-bottom: 1rem;
@@ -23,8 +24,9 @@ label{
 
 }
 .education:hover{
-    background-color: #a82f2f;
-    color: white;
+    background-color: #87bbd7;
+    color: #0b4251;
+    border: 2px solid #0b4251;
 }
 
 .workimage2{

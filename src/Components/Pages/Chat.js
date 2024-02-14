@@ -23,35 +23,24 @@ const Chat = () => {
       <Header />
       <div
         style={{
-          backgroundColor: "#be686849",
+          backgroundColor: "#87bbd7",
           marginTop: "-24px",
-          borderTop: "2px solid #e40707",
+          borderTop: "2px solid #0b4251",
         }}
       >
         <FontAwesomeIcon
           onClick={handleback}
           icon={faCircleArrowLeft}
           shake
-          style={{
-            color: "#e7230d",
-            height: "4rem",
-            width: "4rem",
-            paddingLeft: "25px",
-          }}
+          className= " pt-3 backbtn"
+          
         />
         <h1
-          className="col-12 text-center"
-          style={{
-            color: "#c2102a",
-            marginTop: "-50px",
-            fontFamily: "caveat",
-            fontWeight: "800",
-            fontSize: "5vw",
-          }}
-        >
+          className="col- heading text-center"
+           >
           Real Time Chatting App
         </h1>
-        <p style={{ marginLeft: "3rem", marginRight: "3rem" }}>
+        <p style={{ marginLeft: "3rem",fontSize:"1.2rem",fontWeight:"700", marginRight: "3rem" }}>
           {" "}
          <b>1.</b> This is a single page application that made using React JS.<br/><b>2.</b> It is a chat App in which you can perform certain tasks.
          <br/><b>3.</b> First you have to login using Google and then you ca chat with any one.<br/><b>4.</b> You can chat with anyone and can also delete the message <br/><b>5.</b> After Chatting you can logout from the app. 
@@ -63,7 +52,7 @@ const Chat = () => {
             rel="noreferrer"
              target="_blank"
               className="projectbtn"
-              style={{ color: "black", marginLeft: "0.8rem" }}
+              style={{  marginLeft: "0.8rem" }}
               href="https://github.com/moazzam23/chatting-app"
             >
               {" "}
@@ -73,7 +62,7 @@ const Chat = () => {
             rel="noreferrer"
              target="_blank"
               className="projectbtn"
-              style={{ color: "black", marginLeft: "1rem" }}
+              style={{ marginLeft: "1rem" }}
               href="https://chatting-app-phi.vercel.app/"
             >
               {" "}
@@ -83,8 +72,9 @@ const Chat = () => {
                    <br />
           <label
             style={{
-              fontSize: "1rem",
+              fontSize: "1.3rem",
               border: "none",
+              textDecoration:"underline",
               borderRadius: "6px",
               marginTop: "0.5rem",
               marginLeft: "3rem",
@@ -95,92 +85,38 @@ const Chat = () => {
             Stack :
           </label>
           <label
-            className="text-center"
-            style={{
-              borderLeft: "15px solid #e40707",
-              fontWeight: "bolder",
-              paddingRight: "10px",
-              color: "black",
-              marginLeft: "1rem",
-              backgroundColor: "#FC8B8B",
-              borderRadius: "6px",
-            }}
+            className="text-center iconp"
           >
-            <BiLogoSass
-              color="black"
-              style={{ height: "1rem", width: "1rem" }}
+            <BiLogoSass className="iconpp"
             />{" "}
             Sass
           </label>
           <label
-            className="text-center"
-            style={{
-              borderLeft: "15px solid black",
-              fontWeight: "bolder",
-              paddingRight: "10px",
-              color: "black",
-              marginLeft: "1rem",
-              backgroundColor: "#40a5db",
-              borderRadius: "6px",
-            }}
+            className="text-center iconp"
+            
           >
-            <BiSolidFileCss
-              color="black"
-              style={{ height: "1rem", width: "1rem" }}
+            <BiSolidFileCss className="iconpp"
             />{" "}
             CSS
           </label>
           <label
-            className="text-center"
-            style={{
-              borderLeft: "15px solid black",
-              fontWeight: "bolder",
-              paddingRight: "10px",
-              color: "black",
-              marginLeft: "1rem",
-              backgroundColor: "#40a5db",
-              borderRadius: "6px",
-            }}
+            className="text-center iconp"
           >
-            <BiLogoReact
-              color="black"
-              style={{ height: "1rem", width: "1rem" }}
+            <BiLogoReact className="iconpp"
             />{" "}
             React JS
           </label>
           <label
-            className="text-center"
-            style={{
-              borderLeft: "15px solid black",
-              fontWeight: "bolder",
-              paddingRight: "10px",
-              color: "black",
-              marginLeft: "1rem",
-              backgroundColor: "#face0a",
-              borderRadius: "6px",
-            }}
+            className="text-center iconp"
           >
-            <IoLogoJavascript
-              color="black"
-              style={{ height: "1rem", width: "1rem" }}
+            <IoLogoJavascript className="iconpp"
             />{" "}
             Javascript
           </label>
           <label
-            className="text-center"
-            style={{
-              borderLeft: "15px solid black",
-              fontWeight: "bolder",
-              paddingRight: "10px",
-              color: "black",
-              marginLeft: "1rem",
-              backgroundColor: "#face0a",
-              borderRadius: "6px",
-            }}
+            className="text-center iconp"
           >
-            <IoLogoFirebase
-              color="black"
-              style={{ height: "1rem", width: "1rem" }}
+            <IoLogoFirebase className="iconpp"
             />{" "}
             Firebase
           </label>

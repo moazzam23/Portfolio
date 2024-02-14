@@ -25,48 +25,45 @@ const Socialmedia = () => {
       <div
         className="col-12"
         style={{
-          backgroundColor: "#be686849",
+          backgroundColor: "#87BBD7",
           marginTop: "-24px",
-          borderTop: "2px solid #e40707",
+          borderTop: "2px solid #0b4251",
         }}
       >
         <FontAwesomeIcon
           onClick={handleback}
           icon={faCircleArrowLeft}
           shake
-          style={{
-            color: "#e7230d",
-            height: "3rem",
-            width: "3rem",
-            paddingLeft: "25px",
-          }}
+          className="pt-3 backbtn"
         />
-        <h1
-          className="col-12 text-center"
+        <h1 className="col-12 heading text-center">Social Media App</h1>
+        <p
           style={{
-            color: "#c2102a",
-            marginTop: "-50px",
-            fontFamily: "caveat",
-            fontWeight: "800",
-            fontSize: "5vw",
+            marginLeft: "3rem",
+            fontSize: "1.2rem",
+            fontWeight: "700",
+            marginRight: "3rem",
           }}
         >
-          Social Media App
-        </h1>
-        <p style={{ marginLeft: "3rem", marginRight: "3rem" }}>
           {" "}
-       <b>1.</b>   It a Full stack Social Media App, made using React JS ,Node JS
-          ,Express JS and Mongo DB. In this app you can register yourself, login , forgot password, can see your profile and also other users profile, you can also follow other user, Create New Post,like the post, comments on post, edit profile, Update Password and also delete Your Profile,
-          You can see the post of follower in your Home page. 
+          <b>1.</b> It a Full stack Social Media App, made using React JS ,Node
+          JS ,Express JS and Mongo DB.
+          <br />
+          <b>2.</b> In this app you can register yourself, login , forgot
+          password, can see your profile and also other users profile, you can
+          also follow other user, Create New Post,like the post, comments on
+          post, edit profile, Update Password and also delete Your Profile,
+          <br />
+          <b>3.</b> You can see the post of follower in your Home page.
         </p>
 
         <div>
           <div className="projectpage">
             <a
-            rel="noreferrer"
-            target="_blank"
+              rel="noreferrer"
+              target="_blank"
               className="projectbtn"
-              style={{ color: "black", marginLeft: "0.8rem" }}
+              style={{ marginLeft: "0.8rem" }}
               href="https://github.com/moazzam23/Social_Media-App---MERN-project"
             >
               {" "}
@@ -74,10 +71,10 @@ const Socialmedia = () => {
             </a>
 
             <a
-            rel="noreferrer"
-            target="_blank"
+              rel="noreferrer"
+              target="_blank"
               className="projectbtn"
-              style={{ color: "black", marginLeft: "1rem" }}
+              style={{ marginLeft: "1rem" }}
               href="https://www.loom.com/share/a1e6b0ce1fff465494b6e00d1990be4f?sid=909cddbd-178c-4318-8f69-99a695bd51a6"
             >
               {" "}
@@ -88,8 +85,9 @@ const Socialmedia = () => {
           <br />
           <label
             style={{
-              fontSize: "1rem",
+              fontSize: "1.3rem",
               border: "none",
+              textDecoration: "underline",
               borderRadius: "6px",
               marginTop: "0.5rem",
               marginLeft: "3rem",
@@ -99,110 +97,23 @@ const Socialmedia = () => {
           >
             Stack
           </label>
-          <label
-            className="text-center"
-            style={{
-              borderLeft: "15px solid black",
-              fontWeight: "bolder",
-              paddingRight: "10px",
-              color: "black",
-              marginLeft: "1rem",
-              backgroundColor: "#40a5db",
-              borderRadius: "6px",
-            }}
-          >
-            <BiSolidFileCss
-              color="black"
-              style={{ height: "1rem", width: "1rem" }}
-            />{" "}
-            CSS
+          <label className="text-center iconp">
+            <BiSolidFileCss className="iconpp" /> CSS
           </label>
-          <label
-            className="text-center"
-            style={{
-              borderLeft: "15px solid black",
-              fontWeight: "bolder",
-              paddingRight: "10px",
-              color: "black",
-              marginLeft: "1rem",
-              backgroundColor: "#40a5db",
-              borderRadius: "6px",
-            }}
-          >
-            <BiLogoReact
-              color="black"
-              style={{ height: "1rem", width: "1rem" }}
-            />{" "}
-            React JS
+          <label className="text-center iconp">
+            <BiLogoReact className="iconpp" /> React JS
           </label>
-          <label
-            className="text-center"
-            style={{
-              borderLeft: "15px solid black",
-              fontWeight: "bolder",
-              paddingRight: "10px",
-              color: "black",
-              marginLeft: "1rem",
-              backgroundColor: "#face0a",
-              borderRadius: "6px",
-            }}
-          >
-            <FaNode color="black" style={{ height: "1rem", width: "1rem" }} />{" "}
-            Node JS
+          <label className="text-center iconp">
+            <FaNode className="iconpp" /> Node JS
           </label>
-          <label
-            className="text-center"
-            style={{
-              borderLeft: "15px solid black",
-              fontWeight: "bolder",
-              paddingRight: "10px",
-              color: "black",
-              marginLeft: "1rem",
-              backgroundColor: "#face0a",
-              borderRadius: "6px",
-            }}
-          >
-            <SiExpress
-              color="black"
-              style={{ height: "1rem", width: "1rem" }}
-            />{" "}
-            Express JS
+          <label className="text-center iconp">
+            <SiExpress className="iconpp" /> Express JS
           </label>
-          <label
-            className="text-center"
-            style={{
-              borderLeft: "15px solid black",
-              fontWeight: "bolder",
-              paddingRight: "10px",
-              color: "black",
-              marginLeft: "1rem",
-              backgroundColor: "#face0a",
-              borderRadius: "6px",
-            }}
-          >
-            <SiMongodb
-              color="black"
-              style={{ height: "1rem", width: "1rem" }}
-            />{" "}
-            Mongo DB
+          <label className="text-center iconp">
+            <SiMongodb className="iconpp" /> Mongo DB
           </label>
-          <label
-            className="text-center"
-            style={{
-              borderLeft: "15px solid black",
-              fontWeight: "bolder",
-              paddingRight: "10px",
-              color: "black",
-              marginLeft: "1rem",
-              backgroundColor: "#face0a",
-              borderRadius: "6px",
-            }}
-          >
-            <SiMongoose
-              color="black"
-              style={{ height: "1rem", width: "1rem" }}
-            />{" "}
-            Mongoose
+          <label className="text-center iconp">
+            <SiMongoose className="iconpp" /> Mongoose
           </label>
           {/* <label className='text-center'  style={{ borderLeft:"15px solid #e40707",  fontWeight:"bolder",paddingRight:"10px",color:"black",marginLeft:"1rem", backgroundColor:"#FC8B8B", borderRadius:"6px"}} ><BiLogoSass color='black' style={{height:"1rem",width:"1rem"}} /> Sass</label>  */}
         </div>
