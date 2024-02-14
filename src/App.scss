@@ -128,9 +128,9 @@ font-size: 3rem;
 
     .imagemy {
   height: 360px;
-  width: 60%;
-  border: 6px solid #e6b544;
-  background-color: #87bbd7;
+  width: 55%;
+  border: 6px solid #d6a023;
+  background-color: #0b4251;
   border-radius: 60%;
   /* Adjust this value to control the spacing between the image and the border */
   // position: relative;
@@ -755,7 +755,7 @@ size: 3rem;
   border: 2px solid #87bbd7;
   border-radius: 50%;
   background-color: #0b4251;
-  mix-blend-mode: difference;
+  mix-blend-mode: darken;
   pointer-events: none;
   transform: translate(-50%, -50%);
   z-index: 9999;
