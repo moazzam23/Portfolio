@@ -19,11 +19,11 @@ function handle1(){
 
   return (
     <>
-        <Navbar className=" col-12" style={{backgroundColor:"#be686849"}} >
+        <Navbar className=" col-12" style={{backgroundColor:"#87bbd7"}} >
         {[{icon: faBars,
             name: 'start'}].map((item, idx) => (
         <Sidebar key={idx} placement={item.name} >
-           <FontAwesomeIcon color='#e40707'  icon={item.icon} /> 
+           <FontAwesomeIcon color='#0b4251'  icon={item.icon} /> 
           </Sidebar>
       ))}
         <Container >

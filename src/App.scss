@@ -28,7 +28,7 @@
 .mainbtn:hover{
   background-color: #000000;
   color: #fff;
-  border: 2px solid #e40707;
+  border: 2px solid #0b4251;
 
 }
 
@@ -36,16 +36,19 @@
  .myname{
   font-family: Rubik Bubbles;
   font-size: 3vw;
+  color: #0b4251;
   text-align: center;
  }
  .myname:hover{
  text-decoration:line-through;
  font-family: caveat;
  font-weight: 600;
+ color: #e6b544;
  }
  .mydisplay{
   font-family: caveat;
   font-size: 2vw;
+  color: #0b4251;
   text-align: end;
   font-weight: 800;
   text-decoration: underline;
@@ -54,45 +57,45 @@
  .myname:before{
   content: '<';
   padding: 0.5rem;
-  color: black;
+  color: #0b4251;
   size: 3rem;
 }
  .myname:after{
   content: '/>';
   padding: 0.5rem;
-  color: black;
+  color: #0b4251;
   size: 3rem;
 }
 
 .bars{
     height: 2rem;
     width: 2rem;
-    border: 2px solid #e40707;
+    border: 2px solid #0b4251;
 padding: 6px 6px;
     margin-left: 2%;
     background-color:transparent;
     color: black;
 }
 .bars:hover{
-  background-color: #c2102a;
-  border: 2px solid #e40707;
-  color: white;
+  background-color: #0b4251;
+  border: 2px solid #87bbd7;
+  color:#87bbd7;
 }
 .sidetitle{
     font-size: 1.1rem;
-    color: white;
+    color: #0b4251;
     font-weight: 800;
     margin-bottom: 1.5rem;    
 }
 .sidetitle:hover{
-   border: 1px solid black;
+   border: 1px solid #0b4251;
    border-radius: 5px;
    font-family: Rubik Bubbles;
    font-weight: 300;
-   color: black;
+   color: #0b4251;
 }
 .sidebarlogo{
-  color:white;
+  color:#0b4251;
 font-size: 3rem;
   padding-right:15px;
 }
@@ -107,7 +110,7 @@ font-size: 3rem;
     margin-top: -25px;
     display: flex;
     height:350px;
-    background-color: #9b2626;
+    background-color: #0b4251;
     
     animation: popup 2s ease-in;
     @keyframes popup {
@@ -168,7 +171,7 @@ font-size: 3rem;
 
 //About
 .me{
-  background-color: #be686849;
+  background-color: #87bbd7;
 //   animation: popup 2s;
 // @keyframes popup {
 //   from {
@@ -184,9 +187,9 @@ font-size: 3rem;
       margin-left: 40%;
       margin-top: 2rem;
       font-family: caveat;
-      color: black;
+      color: #0b4251;
       // font-size: 2.3rem;
-      border: 3px solid red ;
+      border: 3px solid #0b4251 ;
       border-radius: 7px;
       padding: 8px 8px;
       display: inline-block;
@@ -202,8 +205,8 @@ font-size: 3rem;
         // height: 390px;
         // border: solid 
         // #000000;
-        border-right: 7px solid #e40707;
-        border-bottom: 7px solid #e40707;
+        border-right: 7px solid #0b4251;
+        border-bottom: 7px solid #0b4251;
         //clip-path: circle(40%);
         position: relative;
         size: 20px;
@@ -218,7 +221,7 @@ font-size: 3rem;
        line-height: 1.2rem;
        text-align: justify;
        font-weight: 600;
-       color: #000000;
+       color: #0b4251;
        font-family: Playfair;
         margin-top: 4rem;
         width: 50%;
@@ -239,7 +242,7 @@ font-size: 3rem;
   //        cursor: pointer;
   //  width: 10rem;
   margin-top: -60px;
-  background-color: #c2102a;
+  background-color: #0b4251;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -250,7 +253,7 @@ font-size: 3rem;
   margin: 10px;
   cursor: pointer;
   border-radius: 5px;
-  background-image: linear-gradient(to right, #c2102a, #2e0303);
+  background-image: linear-gradient(to right, #87bbd7,#0b4251);
   background-size: 200% 100%;
   transition: background-position 0.3s;
 }
@@ -270,22 +273,22 @@ font-size: 3rem;
     font-weight: 600;
       font-size: 2vw;
       // margin-top: 1rem;
-      background-color: rgba(190, 104, 104, 0.288);
-      color: #2e0303;
+      background-color: #0b4251;
+      color: #87bbd7;
     }
     }
   
 
     .works{
         width: 100%;
-       background-color:  #be686849;
+       background-color:  #87bbd7;
         h1{
           margin-left: 40%;
           margin-top: 2rem;
           font-family: caveat;
-          color: black;
+          color: #0b4251;
           font-size: 2.3rem;
-          border: 5px solid red ;
+          border: 5px solid #0b4251 ;
           border-radius: 7px;
           padding: 8px 8px;
           display: inline-block;
@@ -306,7 +309,7 @@ font-family: caveat;
       font-size: 1vw;
       padding-left: 0.5rem;
       // width: 50%;
-      color: #000000;
+      color: #0b4251;
       font-weight: 700;
       text-align: justify;
       width: 70%;
@@ -317,7 +320,7 @@ font-family: caveat;
     h2:before{
       content: '>';
       padding: 0.5rem;
-      color: red;
+      color: #0b4251;
       size: 3rem;
     }
     
@@ -340,14 +343,14 @@ font-family: caveat;
 
           //offers
 .offers{
-  background-color: #be686849;
+  background-color: #87bbd7;
   h1{
     margin-left: 40%;
     margin-top: 2rem;
     font-family: Caveat;
-    color: black;
+    color: #0b4251;
     // font-size: 2.3rem;
-    border: 3px solid red ;
+    border: 3px solid #0b4251 ;
     border-radius: 7px;
     padding: 8px 8px;
     display: inline-block;
@@ -361,7 +364,7 @@ font-family: caveat;
       
   }
   h4{
-      color: black;
+      color: #0b4251;
       display: flex;
       size: 3rem;
       font-weight: 300;
@@ -372,7 +375,7 @@ padding-top: 1rem;
     //  font-size: 1rem;
      justify-content: center;
       svg{
-          fill: red;
+          fill: #0b4251;
           padding-right: 0.5rem;
           padding-left: 0.5rem;
           width: 3rem;
@@ -388,14 +391,14 @@ padding-top: 1rem;
 
 //find
 .find{
-background-color: #be686849;
+background-color: #87bbd7;
   h1{
     // margin-left: 40%;
     margin-top: 4rem;
     font-family: Caveat;
-    color: black;
+    color: #0b4251;
     // font-size: 2.3rem;
-    border: 3px solid red ;
+    border: 3px solid #0b4251 ;
     border-radius: 7px;
     padding: 8px 8px;
     display: inline-block;
@@ -407,7 +410,7 @@ div{
   a{
       svg{
       margin-top: 3rem;
-      fill: red;
+      fill: #0b4251;
 width: 3rem;
 height: 3rem;      
 padding-left: 2rem;
@@ -424,9 +427,9 @@ padding-right: 2rem;
     // margin-left: 40%;
     margin-top: 4rem;
     font-family: Roboto;
-    color: black;
+    color: #0b4251;
     // font-size: 2.3rem;
-    border: 3px solid red ;
+    border: 3px solid #0b4251 ;
     border-radius: 7px;
     padding: 8px 8px;
     display: inline-block;
@@ -438,7 +441,7 @@ div{
   a{
       svg{
       margin-top: 3rem;
-      fill: red;
+      fill: #0b4251;
 width: 3rem;
 height: 3rem;      
 padding-left: 2rem;
@@ -451,7 +454,7 @@ padding-right: 2rem;
 
 //footer
 .footer{
-  background-color: #be686849;
+  background-color: #87bbd7;
   div{
       display: flex;
       justify-content: flex-end;
@@ -461,7 +464,7 @@ font-size: 1.2rem;
 text-align: center;
 align-items: center;
 p{
-  color: red;
+  color: #0b4251;
 
   font: 1.2rem caveat;
   padding-left: 10px;
@@ -558,13 +561,13 @@ p{
   // margin: 0 1rem 0 1rem;
   // position: relative;
   width: 1100px;
-  border:1px solid #e40707;
+  border:1px solid #0b4251;
   height: 280px;
   display: flex;
   border-radius: 10px;
   // box-shadow:0px 10px 20px #e40707; 
   padding: 10px;
-  background-color: #F9E5E5;
+  background-color: #87bbd7;
 }
 .cardbody3 {
   text-align: left;
@@ -603,10 +606,10 @@ p{
   margin: 0 2rem 0 2rem;
   position: relative;
   width: 190px;
-  border:1px solid #e40707;
+  border:1px solid #0b4251;
   height: 170px;
   border-radius: 10px;
-  box-shadow:0px 10px 20px #e40707; 
+  box-shadow:0px 10px 20px #87bbd7; 
   padding: 30px;
   background-color: #fff;
 }
@@ -633,7 +636,7 @@ p{
 // font-family: Rubik Bubbles;
 // }
 .loading-page {
-  background-color: #be686849;
+  background-color: #0b4251;
   height: 602px;
   width: 100%;
   display: flex;
@@ -641,7 +644,7 @@ p{
   justify-content: center;
   align-items: center;
   gap: 30px;
-  color: #e40707;
+  color: #87bbd7;
   text-align: center;
   font-family: 'Rubik Bubbles';
 }
@@ -734,16 +737,16 @@ size: 3rem;
   position: fixed;
   width: 30px;
   height: 30px;
-  border: 2px solid #e40707;
+  border: 2px solid #87bbd7;
   border-radius: 50%;
-  background-color: #e40707;
+  background-color: #0b4251;
   mix-blend-mode: darken;
   pointer-events: none;
   transform: translate(-50%, -50%);
   z-index: 9999;
   transition: all 0.2s ease;
   // cursor: pointer;
-  box-shadow: 0 0 10px #e40707;
+  box-shadow: 0 0 10px #0b4251;
 }
 
 
@@ -760,11 +763,11 @@ body {
 /* Define the style for the custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px; /* Width of the scrollbar */
-  background-color: #be686849;
+  background-color: #87bbd7;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #e40707; /* Color of the thumb */
+  background-color: #87bbd7; /* Color of the thumb */
   border-radius: 7px; /* Rounded corners */
   height: 10px;
 }
@@ -775,7 +778,7 @@ body {
 
 /* Optional: You can add hover effects for the scrollbar */
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #c2102a; /* Hover color */
+  background-color: #0b4251; /* Hover color */
 }
 
 

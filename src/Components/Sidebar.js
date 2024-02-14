@@ -44,7 +44,7 @@ function handleeducation(){
       <Button variant='warning' onClick={handleShow} className=" bars ">
         <FontAwesomeIcon   icon={faBars}/>
       </Button>
-      <Offcanvas style={{width:"260px",backgroundColor:"#9b2626"}} show={show} onHide={handleClose} {...props}>
+      <Offcanvas style={{width:"260px",backgroundColor:"#87bbd7"}} show={show} onHide={handleClose} {...props}>
         <Offcanvas.Header closeButton >
         </Offcanvas.Header>
         <Offcanvas.Body style={{textAlign:" center",
