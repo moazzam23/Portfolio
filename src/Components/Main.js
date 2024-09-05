@@ -32,7 +32,7 @@ const Main = () => {
         1000,
         'I am Mern-Stack Developer',
         1000,
-        'I am Frontend Developer',
+        'I am Laravel Developer',
         1000,
         'I am a Designer',
         1000,

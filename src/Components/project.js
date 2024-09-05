@@ -7,6 +7,7 @@ import img4 from "../Assets/corona2.png"
 import img5 from "../Assets/social/Screenshot (98).png"
 import img6 from "../Assets/Ecommer/Screenshot (102).png"
 import img7 from "../Assets/job/Screenshot (117).png"
+import img8 from "../Assets/ali2.png"
 
 import Header from "../Components/header/Header"
 import { Alert } from "react-bootstrap"
@@ -41,6 +42,22 @@ const Project = () => {
   function handlejob(){
     navigate("/jobseeking")
   }
+  function handledistribute(){
+    window.open(" https://dc03.elipbiy01.com/login", "_blank")
+    
+  }
+  function handleasz(){
+    window.open(" https://azslaravel02.elipbiy01.com/", "_blank")
+   
+  }
+  function handleafrai(){
+    window.open("http://127.0.0.1:8000/event_lists", "_blank")
+
+
+  }
+  function handlevip(){
+    window.open(" https://www.vipridez.com/", "_blank")
+  }
   return (
 
     <>
@@ -48,6 +65,58 @@ const Project = () => {
     <div style={{backgroundColor:"#87bbd7",marginTop:"-24px",borderTop:"2px solid #0b4251"}}>
     <h1 style={{ textAlign:"center", fontFamily:"Caveat",fontWeight:"800",color:"#0b4251", fontSize:"3.7rem" ,marginBottom:"130px"}} > Project</h1>
     <div className="cardmain col-12">
+    <div className="card1">
+      <div className="image">
+        <img onClick={handlevip} src={img8} alt="card"/>
+      </div>
+      <div className="cardbody">
+        <h4>VIP RIDEZ</h4>
+        <p>It a Full STACK Social Web App, VIP Ridez Best Car Hire Company: Best Black Car
+Service in Chicago,IL
+ </p>
+ <Alert variant='danger' >Click image to view Details?</Alert>
+
+        </div>
+    </div>
+    <div className="card1">
+      <div className="image">
+        <img onClick={handleafrai} src={img8} alt="card"/>
+      </div>
+      <div className="cardbody">
+        <h4>Efraim</h4>
+        <p>I developed an Admin Panel for this
+site and also dynamically managed the front end, allowing users to book
+events
+ </p>
+ <Alert variant='danger' >Click image to view Details?</Alert>
+
+        </div>
+    </div>
+    <div className="card1">
+      <div className="image">
+        <img onClick={handleasz} src={img8} alt="card"/>
+      </div>
+      <div className="cardbody">
+        <h4>AZS</h4>
+        <p>It a Full STACK Social Web App,I also participated in the development of a
+website for managing azs centers
+ </p>
+ <Alert variant='danger' >Click image to view Details?</Alert>
+
+        </div>
+    </div>
+    <div className="card1">
+      <div className="image">
+        <img onClick={handledistribute} src={img8} alt="card"/>
+      </div>
+      <div className="cardbody">
+        <h4>Distribution center</h4>
+        <p>I also participated in the development of a
+website for managing distribution centers</p>
+ <Alert variant='danger' > Click image to view Details? </Alert>
+
+        </div>
+    </div>
     <div className="card1">
       <div className="image">
         <img onClick={handlejob} src={img7} alt="card"/>
